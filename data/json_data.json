@@ -1,0 +1,4432 @@
+{
+    "datetime": "06/21/2024, 02:47:13",
+    "data": [
+        {
+            "year": 2024,
+            "month": 1,
+            "availability_data": [
+                {
+                    "availability": 99.992,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Vault",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.993,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Remote Access",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.988,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Common",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.972,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Edge Manager",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.953,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Optix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT DataMosaix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Vault",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Remote Access",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Common",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Edge Manager",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Optix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT DataMosaix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Vault",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Remote Access",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Common",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Edge Manager",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Optix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT DataMosaix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Vault",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Remote Access",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Common",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Edge Manager",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Optix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT DataMosaix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Vault",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Remote Access",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Common",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Edge Manager",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT Optix",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 1,
+                    "service": "FT DataMosaix",
+                    "subscription": "preprod"
+                }
+            ],
+            "pd_data": [
+                {
+                    "team": {
+                        "id": "PG19RXC",
+                        "name": "DevSecOps"
+                    },
+                    "data": {
+                        "MTTA": 1,
+                        "MTTR": 140,
+                        "MTBF": 16
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PZPH97Q",
+                        "name": "FactoryTalk Design Hub"
+                    },
+                    "data": {
+                        "MTTA": 1,
+                        "MTTR": 19,
+                        "MTBF": 62
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PXAK4EH",
+                        "name": "LeMans Common Services"
+                    },
+                    "data": {
+                        "MTTA": 47,
+                        "MTTR": 3583,
+                        "MTBF": 32
+                    }
+                }
+            ],
+            "cost_data": [
+                {
+                    "total": 34367.84970450078,
+                    "actual": 34367.84970450078,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Production",
+                    "month": 1,
+                    "year": 2024
+                },
+                {
+                    "total": 29109.52700642307,
+                    "actual": 29109.52700642307,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Non-Production (Development)",
+                    "month": 1,
+                    "year": 2024
+                },
+                {
+                    "total": 41381.978586893994,
+                    "actual": 41381.978586893994,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Sandbox",
+                    "month": 1,
+                    "year": 2024
+                },
+                {
+                    "total": 13343.779966965858,
+                    "actual": 13343.779966965858,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Demo",
+                    "month": 1,
+                    "year": 2024
+                },
+                {
+                    "total": 12006.47325876972,
+                    "actual": 12006.47325876972,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub PreProduction",
+                    "month": 1,
+                    "year": 2024
+                }
+            ],
+            "aws_cost_data": [
+                {
+                    "account": "FT Twin Studio Production",
+                    "total": 4931.98,
+                    "trend": -1.86
+                },
+                {
+                    "account": "FT Twin Studio Non-Production",
+                    "total": 1147.48,
+                    "trend": 4.2
+                },
+                {
+                    "account": "FT Twin Studio Sandbox",
+                    "total": 7026.69,
+                    "trend": 36.15
+                },
+                {
+                    "account": "FT Optix",
+                    "total": 10367.54,
+                    "trend": 43.79
+                },
+                {
+                    "account": "FT Twin Studio Demo",
+                    "total": 0,
+                    "trend": 0
+                },
+                {
+                    "account": "FT Twin Studio Preprod",
+                    "total": 0,
+                    "trend": 0
+                }
+            ],
+            "security_data": [
+                {
+                    "score": 68.0,
+                    "subscription": "FTHub Production",
+                    "iso_27001_2013": {
+                        "pass": 6,
+                        "fail": 12,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 35,
+                        "fail": 25,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 6,
+                        "fail": 11,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 65.96,
+                    "subscription": "FTHub Non-Production (Development)",
+                    "iso_27001_2013": {
+                        "pass": 6,
+                        "fail": 12,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 33,
+                        "fail": 27,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 6,
+                        "fail": 11,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 50.9,
+                    "subscription": "FTHub Sandbox",
+                    "iso_27001_2013": {
+                        "pass": 4,
+                        "fail": 14,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 32,
+                        "fail": 29,
+                        "skip": 48
+                    },
+                    "soc_2_type_2": {
+                        "pass": 4,
+                        "fail": 13,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 63.190000000000005,
+                    "subscription": "FTHub Demo",
+                    "iso_27001_2013": {
+                        "pass": 8,
+                        "fail": 10,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 33,
+                        "fail": 26,
+                        "skip": 50
+                    },
+                    "soc_2_type_2": {
+                        "pass": 4,
+                        "fail": 13,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 66.67,
+                    "subscription": "FTHub PreProduction",
+                    "iso_27001_2013": {
+                        "pass": 7,
+                        "fail": 11,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 37,
+                        "fail": 23,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 4,
+                        "fail": 13,
+                        "skip": 44
+                    }
+                }
+            ],
+            "usage_data": {
+                "user_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 74610,
+                        "nonprod": 39859,
+                        "sandbox": 11994,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 6041,
+                        "nonprod": 1307,
+                        "sandbox": 88,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 3299,
+                        "nonprod": 0,
+                        "sandbox": 3060,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "all_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 134979,
+                        "nonprod": 74130,
+                        "sandbox": 20146,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 9841,
+                        "nonprod": 2238,
+                        "sandbox": 141,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 6467,
+                        "nonprod": 0,
+                        "sandbox": 6086,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "new_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 1102,
+                        "nonprod": 12,
+                        "sandbox": 72,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 332,
+                        "nonprod": 0,
+                        "sandbox": 3,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 12,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 1,
+                        "sandbox": 1,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "active_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 3885,
+                        "nonprod": 497,
+                        "sandbox": 540,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 1098,
+                        "nonprod": 60,
+                        "sandbox": 18,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 49,
+                        "nonprod": 0,
+                        "sandbox": 8,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ]
+            },
+            "app_cost_data": [
+                {
+                    "application": "FT Vault",
+                    "total": 9312.33,
+                    "trend": -34.04
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": 6794.89,
+                    "trend": -31.68
+                },
+                {
+                    "application": "FT Common Services",
+                    "total": 18004.52,
+                    "trend": -33.93
+                },
+                {
+                    "application": "FT Twin Studio",
+                    "total": 7006.03,
+                    "trend": -0.86
+                },
+                {
+                    "application": "FT Optix",
+                    "total": 13151.17,
+                    "trend": 10.54
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": null,
+                    "trend": null,
+                    "forecast_pct_of_budget": null
+                },
+                {
+                    "application": "FTHub Shared Services",
+                    "total": 69857.3,
+                    "trend": -39.32
+                },
+                {
+                    "application": "FTHub Ops Bootstrap",
+                    "total": 3055.11,
+                    "trend": -20.75
+                },
+                {
+                    "application": "FTHub Help Desk",
+                    "total": 203.91,
+                    "trend": -31.93
+                },
+                {
+                    "application": "Others",
+                    "total": 2529.07,
+                    "trend": -95.32000000000002
+                }
+            ],
+            "prisma_data": [
+                {
+                    "application": "Testing",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Edge Manager",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Vault",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Common",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Optix",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                }
+            ],
+            "synthetic_tests_data": [
+                {
+                    "result": null,
+                    "test_name": "Launch Fiix service"
+                },
+                {
+                    "result": null,
+                    "test_name": "Filter Design Hub services"
+                },
+                {
+                    "result": null,
+                    "test_name": "Credits consumption"
+                },
+                {
+                    "result": null,
+                    "test_name": "Launch FTRA trial service"
+                },
+                {
+                    "result": null,
+                    "test_name": "Launch Optix service"
+                },
+                {
+                    "result": null,
+                    "test_name": "Launch vault into Home page"
+                },
+                {
+                    "result": null,
+                    "test_name": "Login SAML flow"
+                },
+                {
+                    "result": null,
+                    "test_name": "Logout SAML flow"
+                }
+            ],
+            "aws_secure_score_data": [
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Production"
+                },
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Non-Production"
+                },
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Sandbox"
+                },
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Demo"
+                }
+            ]
+        },
+        {
+            "year": 2024,
+            "month": 2,
+            "availability_data": [
+                {
+                    "availability": 99.994,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Vault",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.993,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Remote Access",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.991,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Common",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.992,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Edge Manager",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.989,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Optix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT DataMosaix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Vault",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Remote Access",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Common",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Edge Manager",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Optix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT DataMosaix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Vault",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Remote Access",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Common",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Edge Manager",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Optix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT DataMosaix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Vault",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Remote Access",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Common",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Edge Manager",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Optix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT DataMosaix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Vault",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Remote Access",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Common",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Edge Manager",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT Optix",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 2,
+                    "service": "FT DataMosaix",
+                    "subscription": "preprod"
+                }
+            ],
+            "pd_data": [
+                {
+                    "team": {
+                        "id": "PG19RXC",
+                        "name": "DevSecOps"
+                    },
+                    "data": {
+                        "MTTA": 0,
+                        "MTTR": 14,
+                        "MTBF": 30
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PZPH97Q",
+                        "name": "FactoryTalk Design Hub"
+                    },
+                    "data": {
+                        "MTTA": 0,
+                        "MTTR": 245,
+                        "MTBF": 116
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PXAK4EH",
+                        "name": "LeMans Common Services"
+                    },
+                    "data": {
+                        "MTTA": 8,
+                        "MTTR": 8826,
+                        "MTBF": 77
+                    }
+                }
+            ],
+            "cost_data": [
+                {
+                    "total": 30106.8873217255,
+                    "actual": 30106.8873217255,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Production",
+                    "month": 2,
+                    "year": 2024
+                },
+                {
+                    "total": 21162.1687939429,
+                    "actual": 21162.1687939429,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Non-Production (Development)",
+                    "month": 2,
+                    "year": 2024
+                },
+                {
+                    "total": 27657.6231671932,
+                    "actual": 27657.6231671932,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Sandbox",
+                    "month": 2,
+                    "year": 2024
+                },
+                {
+                    "total": 10432.8183299778,
+                    "actual": 10432.8183299778,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Demo",
+                    "month": 2,
+                    "year": 2024
+                },
+                {
+                    "total": 9051.32537244969,
+                    "actual": 9051.32537244969,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub PreProduction",
+                    "month": 2,
+                    "year": 2024
+                }
+            ],
+            "aws_cost_data": [
+                {
+                    "account": "FT Twin Studio Production",
+                    "total": 8726.31,
+                    "trend": 95.52
+                },
+                {
+                    "account": "FT Twin Studio Non-Production",
+                    "total": 1818.65,
+                    "trend": 72.21
+                },
+                {
+                    "account": "FT Twin Studio Sandbox",
+                    "total": 4255.52,
+                    "trend": -33.02
+                },
+                {
+                    "account": "FT Optix",
+                    "total": 10845.74,
+                    "trend": 39.86
+                },
+                {
+                    "account": "FT Twin Studio Demo",
+                    "total": 0,
+                    "trend": 0
+                },
+                {
+                    "account": "FT Twin Studio Preprod",
+                    "total": 0,
+                    "trend": 0
+                }
+            ],
+            "security_data": [
+                {
+                    "score": 62.79,
+                    "subscription": "FTHub Production",
+                    "iso_27001_2013": {
+                        "pass": 8,
+                        "fail": 10,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 35,
+                        "fail": 25,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 67.62,
+                    "subscription": "FTHub Non-Production (Development)",
+                    "iso_27001_2013": {
+                        "pass": 8,
+                        "fail": 10,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 33,
+                        "fail": 27,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 7,
+                        "fail": 10,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 41.52,
+                    "subscription": "FTHub Sandbox",
+                    "iso_27001_2013": {
+                        "pass": 7,
+                        "fail": 11,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 32,
+                        "fail": 28,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 59.709999999999994,
+                    "subscription": "FTHub Demo",
+                    "iso_27001_2013": {
+                        "pass": 9,
+                        "fail": 9,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 33,
+                        "fail": 26,
+                        "skip": 50
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 66.67,
+                    "subscription": "FTHub PreProduction",
+                    "iso_27001_2013": {
+                        "pass": 9,
+                        "fail": 9,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 37,
+                        "fail": 23,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                }
+            ],
+            "usage_data": {
+                "user_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 74501,
+                        "nonprod": 45955,
+                        "sandbox": 10063,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 14032,
+                        "nonprod": 2374,
+                        "sandbox": 90,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 3295,
+                        "nonprod": 0,
+                        "sandbox": 15,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 13,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "all_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 134366,
+                        "nonprod": 86720,
+                        "sandbox": 15491,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 24296,
+                        "nonprod": 4272,
+                        "sandbox": 148,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 6365,
+                        "nonprod": 0,
+                        "sandbox": 29,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 15,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "new_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 1272,
+                        "nonprod": 56,
+                        "sandbox": 190,
+                        "demo": 1,
+                        "preprod": 1
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 633,
+                        "nonprod": 5,
+                        "sandbox": 3,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 20,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 1,
+                        "sandbox": 2,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "active_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 4376,
+                        "nonprod": 662,
+                        "sandbox": 800,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 2214,
+                        "nonprod": 88,
+                        "sandbox": 23,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 80,
+                        "nonprod": 0,
+                        "sandbox": 3,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 1,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ]
+            },
+            "app_cost_data": [
+                {
+                    "application": "FT Vault",
+                    "total": 6941.06,
+                    "trend": -17.39
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": 4967.0,
+                    "trend": -19.11
+                },
+                {
+                    "application": "FT Common Services",
+                    "total": 16332.76,
+                    "trend": 0.25
+                },
+                {
+                    "application": "FT Twin Studio",
+                    "total": 10060.38,
+                    "trend": 58.3
+                },
+                {
+                    "application": "FT Optix",
+                    "total": 12539.81,
+                    "trend": 22.09
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": null,
+                    "trend": null,
+                    "forecast_pct_of_budget": null
+                },
+                {
+                    "application": "FTHub Shared Services",
+                    "total": 52477.76,
+                    "trend": -16.01
+                },
+                {
+                    "application": "FTHub Ops Bootstrap",
+                    "total": 1777.91,
+                    "trend": -35.97
+                },
+                {
+                    "application": "FTHub Help Desk",
+                    "total": 190.27,
+                    "trend": 3.31
+                },
+                {
+                    "application": "Others",
+                    "total": 1622.63,
+                    "trend": -45.599999999999994
+                }
+            ],
+            "prisma_data": [
+                {
+                    "application": "Testing",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Edge Manager",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Vault",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Common",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Optix",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": {
+                        "critical": null,
+                        "high": null,
+                        "medium": null
+                    }
+                }
+            ],
+            "synthetic_tests_data": [
+                {
+                    "result": 99.502,
+                    "test_name": "Launch Fiix service"
+                },
+                {
+                    "result": 99.005,
+                    "test_name": "Filter Design Hub services"
+                },
+                {
+                    "result": 88.462,
+                    "test_name": "Credits consumption"
+                },
+                {
+                    "result": 99.502,
+                    "test_name": "Launch FTRA trial service"
+                },
+                {
+                    "result": 98.507,
+                    "test_name": "Launch Optix service"
+                },
+                {
+                    "result": 99.502,
+                    "test_name": "Launch vault into Home page"
+                },
+                {
+                    "result": null,
+                    "test_name": "Login SAML flow"
+                },
+                {
+                    "result": null,
+                    "test_name": "Logout SAML flow"
+                }
+            ],
+            "aws_secure_score_data": [
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Production"
+                },
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Non-Production"
+                },
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Sandbox"
+                },
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Demo"
+                }
+            ]
+        },
+        {
+            "year": 2024,
+            "month": 3,
+            "availability_data": [
+                {
+                    "availability": 99.988,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Vault",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.996,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Remote Access",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.952,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Common",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.994,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Edge Manager",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.981,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Optix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.624,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT DataMosaix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Vault",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Remote Access",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Common",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Edge Manager",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Optix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT DataMosaix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Vault",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Remote Access",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Common",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Edge Manager",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Optix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT DataMosaix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Vault",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Remote Access",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Common",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Edge Manager",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Optix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT DataMosaix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Vault",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Remote Access",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Common",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Edge Manager",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT Optix",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 3,
+                    "service": "FT DataMosaix",
+                    "subscription": "preprod"
+                }
+            ],
+            "pd_data": [
+                {
+                    "team": {
+                        "id": "PG19RXC",
+                        "name": "DevSecOps"
+                    },
+                    "data": {
+                        "MTTA": 1,
+                        "MTTR": 38,
+                        "MTBF": 41
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PZPH97Q",
+                        "name": "FactoryTalk Design Hub"
+                    },
+                    "data": {
+                        "MTTA": 1,
+                        "MTTR": 32,
+                        "MTBF": 248
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PXAK4EH",
+                        "name": "LeMans Common Services"
+                    },
+                    "data": {
+                        "MTTA": 8,
+                        "MTTR": 1072,
+                        "MTBF": 53
+                    }
+                }
+            ],
+            "cost_data": [
+                {
+                    "total": 29058.7917976795,
+                    "actual": 29058.7917976795,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Production",
+                    "month": 3,
+                    "year": 2024
+                },
+                {
+                    "total": 19154.1667153602,
+                    "actual": 19154.1667153602,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Non-Production (Development)",
+                    "month": 3,
+                    "year": 2024
+                },
+                {
+                    "total": 25301.5233448559,
+                    "actual": 25301.5233448559,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Sandbox",
+                    "month": 3,
+                    "year": 2024
+                },
+                {
+                    "total": 11335.5906899143,
+                    "actual": 11335.5906899143,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Demo",
+                    "month": 3,
+                    "year": 2024
+                },
+                {
+                    "total": 9960.78042999349,
+                    "actual": 9960.78042999349,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub PreProduction",
+                    "month": 3,
+                    "year": 2024
+                }
+            ],
+            "aws_cost_data": [
+                {
+                    "account": "FT Twin Studio Production",
+                    "total": 8300.48,
+                    "trend": -6.82
+                },
+                {
+                    "account": "FT Twin Studio Non-Production",
+                    "total": 2262.5,
+                    "trend": 20.3
+                },
+                {
+                    "account": "FT Twin Studio Sandbox",
+                    "total": 4912.01,
+                    "trend": 7.78
+                },
+                {
+                    "account": "FT Optix",
+                    "total": 10982.16,
+                    "trend": -3.68
+                },
+                {
+                    "account": "FT Twin Studio Demo",
+                    "total": 0,
+                    "trend": 0
+                },
+                {
+                    "account": "FT Twin Studio Preprod",
+                    "total": 0,
+                    "trend": 0
+                }
+            ],
+            "security_data": [
+                {
+                    "score": 66.96,
+                    "subscription": "FTHub Production",
+                    "iso_27001_2013": {
+                        "pass": 8,
+                        "fail": 10,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 35,
+                        "fail": 25,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 64.5,
+                    "subscription": "FTHub Non-Production (Development)",
+                    "iso_27001_2013": {
+                        "pass": 8,
+                        "fail": 10,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 33,
+                        "fail": 27,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 45.81,
+                    "subscription": "FTHub Sandbox",
+                    "iso_27001_2013": {
+                        "pass": 5,
+                        "fail": 13,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 32,
+                        "fail": 28,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 4,
+                        "fail": 13,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 65.96,
+                    "subscription": "FTHub Demo",
+                    "iso_27001_2013": {
+                        "pass": 10,
+                        "fail": 8,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 33,
+                        "fail": 26,
+                        "skip": 50
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 69.44,
+                    "subscription": "FTHub PreProduction",
+                    "iso_27001_2013": {
+                        "pass": 9,
+                        "fail": 9,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 37,
+                        "fail": 23,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                }
+            ],
+            "usage_data": {
+                "user_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 73167,
+                        "nonprod": 37963,
+                        "sandbox": 12403,
+                        "demo": 433,
+                        "preprod": 433
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 14720,
+                        "nonprod": 2734,
+                        "sandbox": 225,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 3360,
+                        "nonprod": 0,
+                        "sandbox": 36,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "all_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 132211,
+                        "nonprod": 70559,
+                        "sandbox": 22589,
+                        "demo": 785,
+                        "preprod": 785
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 25627,
+                        "nonprod": 5170,
+                        "sandbox": 359,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 6629,
+                        "nonprod": 0,
+                        "sandbox": 81,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "new_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 1162,
+                        "nonprod": 141,
+                        "sandbox": 147,
+                        "demo": 20,
+                        "preprod": 20
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 433,
+                        "nonprod": 6,
+                        "sandbox": 4,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 22,
+                        "nonprod": 0,
+                        "sandbox": 2,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 1,
+                        "sandbox": 3,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "active_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 3933,
+                        "nonprod": 742,
+                        "sandbox": 664,
+                        "demo": 76,
+                        "preprod": 76
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 2066,
+                        "nonprod": 73,
+                        "sandbox": 24,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 77,
+                        "nonprod": 0,
+                        "sandbox": 10,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ]
+            },
+            "app_cost_data": [
+                {
+                    "application": "FT Vault",
+                    "total": 6586.96,
+                    "trend": -8.81
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": 5162.52,
+                    "trend": -0.5
+                },
+                {
+                    "application": "FT Common Services",
+                    "total": 17394.09,
+                    "trend": 2.81
+                },
+                {
+                    "application": "FT Twin Studio",
+                    "total": 10984.16,
+                    "trend": 6.49
+                },
+                {
+                    "application": "FT Optix",
+                    "total": 12684.33,
+                    "trend": -3.8
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": null,
+                    "trend": null,
+                    "forecast_pct_of_budget": null
+                },
+                {
+                    "application": "FTHub Shared Services",
+                    "total": 46052.29,
+                    "trend": -16.46
+                },
+                {
+                    "application": "FTHub Ops Bootstrap",
+                    "total": 2163.98,
+                    "trend": 14.36
+                },
+                {
+                    "application": "FTHub Help Desk",
+                    "total": 201.8,
+                    "trend": 2.52
+                },
+                {
+                    "application": "Others",
+                    "total": 1181.06,
+                    "trend": -89.5
+                }
+            ],
+            "prisma_data": [
+                {
+                    "application": "Testing",
+                    "total": {
+                        "critical": 9,
+                        "high": 23,
+                        "medium": 25
+                    }
+                },
+                {
+                    "application": "FT Edge Manager",
+                    "total": {
+                        "critical": 8,
+                        "high": 47,
+                        "medium": 55
+                    }
+                },
+                {
+                    "application": "FT Vault",
+                    "total": {
+                        "critical": 4,
+                        "high": 21,
+                        "medium": 58
+                    }
+                },
+                {
+                    "application": "FT Common",
+                    "total": {
+                        "critical": 40,
+                        "high": 158,
+                        "medium": 187
+                    }
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": {
+                        "critical": 4,
+                        "high": 58,
+                        "medium": 140
+                    }
+                },
+                {
+                    "application": "FT Optix",
+                    "total": {
+                        "critical": 1,
+                        "high": 15,
+                        "medium": 41
+                    }
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": {
+                        "critical": 0,
+                        "high": 16,
+                        "medium": 77
+                    }
+                }
+            ],
+            "synthetic_tests_data": [
+                {
+                    "result": 98.892,
+                    "test_name": "Launch Fiix service"
+                },
+                {
+                    "result": 99.214,
+                    "test_name": "Filter Design Hub services"
+                },
+                {
+                    "result": 85.18,
+                    "test_name": "Credits consumption"
+                },
+                {
+                    "result": 98.964,
+                    "test_name": "Launch FTRA trial service"
+                },
+                {
+                    "result": 98.892,
+                    "test_name": "Launch Optix service"
+                },
+                {
+                    "result": 99.214,
+                    "test_name": "Launch vault into Home page"
+                },
+                {
+                    "result": 99.5,
+                    "test_name": "Login SAML flow"
+                },
+                {
+                    "result": 98.844,
+                    "test_name": "Logout SAML flow"
+                }
+            ],
+            "aws_secure_score_data": [
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Production"
+                },
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Non-Production"
+                },
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Sandbox"
+                },
+                {
+                    "score": null,
+                    "subscription": "FT Twin Studio Demo"
+                }
+            ]
+        },
+        {
+            "year": 2024,
+            "month": 4,
+            "availability_data": [
+                {
+                    "availability": 99.994,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Vault",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.952,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Remote Access",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.983,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Common",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.997,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Edge Manager",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.989,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Optix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.679,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT DataMosaix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.996,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Vault",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.977,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Remote Access",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.964,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Common",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 98.991,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Edge Manager",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.979,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Optix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.867,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT DataMosaix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.949,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Vault",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.933,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Remote Access",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.935,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Common",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 98.876,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Edge Manager",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.927,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Optix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.153,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT DataMosaix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Vault",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Remote Access",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": 99.985,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Common",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Edge Manager",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Optix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": 89.602,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT DataMosaix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": 99.974,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Vault",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Remote Access",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": 99.987,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Common",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Edge Manager",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT Optix",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": 99.832,
+                    "year": 2024,
+                    "month": 4,
+                    "service": "FT DataMosaix",
+                    "subscription": "preprod"
+                }
+            ],
+            "pd_data": [
+                {
+                    "team": {
+                        "id": "PG19RXC",
+                        "name": "DevSecOps"
+                    },
+                    "data": {
+                        "MTTA": 1,
+                        "MTTR": 18,
+                        "MTBF": 103
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PZPH97Q",
+                        "name": "FactoryTalk Design Hub"
+                    },
+                    "data": {
+                        "MTTA": 0,
+                        "MTTR": 15,
+                        "MTBF": 720
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PXAK4EH",
+                        "name": "LeMans Common Services"
+                    },
+                    "data": {
+                        "MTTA": 3,
+                        "MTTR": 43,
+                        "MTBF": 40
+                    }
+                }
+            ],
+            "cost_data": [
+                {
+                    "total": 29120.789998465,
+                    "actual": 29120.789998465,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Production",
+                    "month": 4,
+                    "year": 2024
+                },
+                {
+                    "total": 17015.2995338679,
+                    "actual": 17015.2995338679,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Non-Production (Development)",
+                    "month": 4,
+                    "year": 2024
+                },
+                {
+                    "total": 22857.7575758469,
+                    "actual": 22857.7575758469,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Sandbox",
+                    "month": 4,
+                    "year": 2024
+                },
+                {
+                    "total": 11147.6514070064,
+                    "actual": 11147.6514070064,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Demo",
+                    "month": 4,
+                    "year": 2024
+                },
+                {
+                    "total": 9882.18358800675,
+                    "actual": 9882.18358800675,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub PreProduction",
+                    "month": 4,
+                    "year": 2024
+                }
+            ],
+            "aws_cost_data": [
+                {
+                    "account": "FT Twin Studio Production",
+                    "total": 8097.26,
+                    "trend": 9.13
+                },
+                {
+                    "account": "FT Twin Studio Non-Production",
+                    "total": 2602.11,
+                    "trend": 23.11
+                },
+                {
+                    "account": "FT Twin Studio Sandbox",
+                    "total": 4711.86,
+                    "trend": 3.69
+                },
+                {
+                    "account": "FT Optix",
+                    "total": 11559.97,
+                    "trend": 36.58
+                },
+                {
+                    "account": "FT Twin Studio Demo",
+                    "total": 0,
+                    "trend": 0
+                },
+                {
+                    "account": "FT Twin Studio Preprod",
+                    "total": 0,
+                    "trend": 0
+                }
+            ],
+            "security_data": [
+                {
+                    "score": 76.9,
+                    "subscription": "FTHub Production",
+                    "iso_27001_2013": {
+                        "pass": 6,
+                        "fail": 12,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 34,
+                        "fail": 26,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 0,
+                        "fail": 17,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 62.46000000000001,
+                    "subscription": "FTHub Non-Production (Development)",
+                    "iso_27001_2013": {
+                        "pass": 6,
+                        "fail": 12,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 31,
+                        "fail": 30,
+                        "skip": 48
+                    },
+                    "soc_2_type_2": {
+                        "pass": 2,
+                        "fail": 15,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 40.54,
+                    "subscription": "FTHub Sandbox",
+                    "iso_27001_2013": {
+                        "pass": 7,
+                        "fail": 11,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 31,
+                        "fail": 29,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 2,
+                        "fail": 15,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 55.54,
+                    "subscription": "FTHub Demo",
+                    "iso_27001_2013": {
+                        "pass": 9,
+                        "fail": 9,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 32,
+                        "fail": 27,
+                        "skip": 50
+                    },
+                    "soc_2_type_2": {
+                        "pass": 1,
+                        "fail": 16,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 69.44,
+                    "subscription": "FTHub PreProduction",
+                    "iso_27001_2013": {
+                        "pass": 9,
+                        "fail": 9,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 36,
+                        "fail": 24,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 1,
+                        "fail": 16,
+                        "skip": 44
+                    }
+                }
+            ],
+            "usage_data": {
+                "user_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 68556,
+                        "nonprod": 35549,
+                        "sandbox": 12550,
+                        "demo": 2626,
+                        "preprod": 2626
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 16608,
+                        "nonprod": 1522,
+                        "sandbox": 208,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 3355,
+                        "nonprod": 0,
+                        "sandbox": 32,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 917,
+                        "sandbox": 33975,
+                        "demo": 1,
+                        "preprod": 1
+                    }
+                ],
+                "all_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 120726,
+                        "nonprod": 64385,
+                        "sandbox": 21653,
+                        "demo": 4587,
+                        "preprod": 4587
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 27573,
+                        "nonprod": 2740,
+                        "sandbox": 326,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 6393,
+                        "nonprod": 0,
+                        "sandbox": 57,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 1773,
+                        "sandbox": 67228,
+                        "demo": 2,
+                        "preprod": 2
+                    }
+                ],
+                "new_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 1388,
+                        "nonprod": 60,
+                        "sandbox": 64,
+                        "demo": 23,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 529,
+                        "nonprod": 7,
+                        "sandbox": 1,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 21,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 3,
+                        "sandbox": 4,
+                        "demo": 0,
+                        "preprod": 0
+                    }
+                ],
+                "active_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 4292,
+                        "nonprod": 595,
+                        "sandbox": 421,
+                        "demo": 191,
+                        "preprod": 191
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 2357,
+                        "nonprod": 75,
+                        "sandbox": 27,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 72,
+                        "nonprod": 0,
+                        "sandbox": 9,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 0,
+                        "nonprod": 51,
+                        "sandbox": 72,
+                        "demo": 1,
+                        "preprod": 1
+                    }
+                ]
+            },
+            "app_cost_data": [
+                {
+                    "application": "FT Vault",
+                    "total": 6987.61,
+                    "trend": 12.35,
+                    "forecast_pct_of_budget": 90.48
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": 5132.16,
+                    "trend": 4.6,
+                    "forecast_pct_of_budget": 88.65
+                },
+                {
+                    "application": "FT Common Services",
+                    "total": 17145.66,
+                    "trend": 4.04,
+                    "forecast_pct_of_budget": 85.22
+                },
+                {
+                    "application": "FT Twin Studio",
+                    "total": 10281.55,
+                    "trend": 12.92,
+                    "forecast_pct_of_budget": 77.18
+                },
+                {
+                    "application": "FT Optix",
+                    "total": 13208.66,
+                    "trend": 31.03,
+                    "forecast_pct_of_budget": 94.57
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": 2517.35,
+                    "trend": 6.1,
+                    "forecast_pct_of_budget": 90.27
+                },
+                {
+                    "application": "FTHub Shared Services",
+                    "total": 41389.87,
+                    "trend": -5.12,
+                    "forecast_pct_of_budget": 87.06
+                },
+                {
+                    "application": "FTHub Ops Bootstrap",
+                    "total": 2735.94,
+                    "trend": 29.44,
+                    "forecast_pct_of_budget": 97.55
+                },
+                {
+                    "application": "FTHub Help Desk",
+                    "total": 195.91,
+                    "trend": 2.95,
+                    "forecast_pct_of_budget": 86.6
+                },
+                {
+                    "application": "Others",
+                    "total": 1148.57,
+                    "trend": 15.75,
+                    "forecast_pct_of_budget": 23.61
+                }
+            ],
+            "prisma_data": [
+                {
+                    "application": "Testing",
+                    "total": {
+                        "critical": 12,
+                        "high": 37,
+                        "medium": 37
+                    }
+                },
+                {
+                    "application": "FT Edge Manager",
+                    "total": {
+                        "critical": 8,
+                        "high": 47,
+                        "medium": 44
+                    }
+                },
+                {
+                    "application": "FT Vault",
+                    "total": {
+                        "critical": 4,
+                        "high": 20,
+                        "medium": 45
+                    }
+                },
+                {
+                    "application": "FT Common",
+                    "total": {
+                        "critical": 2,
+                        "high": 18,
+                        "medium": 34
+                    }
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": {
+                        "critical": 4,
+                        "high": 71,
+                        "medium": 167
+                    }
+                },
+                {
+                    "application": "FT Optix",
+                    "total": {
+                        "critical": 1,
+                        "high": 15,
+                        "medium": 37
+                    }
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": {
+                        "critical": 0,
+                        "high": 12,
+                        "medium": 43
+                    }
+                }
+            ],
+            "synthetic_tests_data": [
+                {
+                    "result": 97.721,
+                    "test_name": "Launch Fiix service"
+                },
+                {
+                    "result": 99.154,
+                    "test_name": "Filter Design Hub services"
+                },
+                {
+                    "result": 89.497,
+                    "test_name": "Credits consumption"
+                },
+                {
+                    "result": 97.992,
+                    "test_name": "Launch FTRA trial service"
+                },
+                {
+                    "result": 92.893,
+                    "test_name": "Launch Optix service"
+                },
+                {
+                    "result": 98.339,
+                    "test_name": "Launch vault into Home page"
+                },
+                {
+                    "result": 97.414,
+                    "test_name": "Login SAML flow"
+                },
+                {
+                    "result": 97.689,
+                    "test_name": "Logout SAML flow"
+                }
+            ],
+            "aws_secure_score_data": [
+                {
+                    "score": 71.23,
+                    "subscription": "FT Twin Studio Production"
+                },
+                {
+                    "score": 51.72,
+                    "subscription": "FT Twin Studio Non-Production"
+                },
+                {
+                    "score": 45.51,
+                    "subscription": "FT Twin Studio Sandbox"
+                },
+                {
+                    "score": 20.67,
+                    "subscription": "FT Twin Studio Demo"
+                }
+            ]
+        },
+        {
+            "year": 2024,
+            "month": 5,
+            "availability_data": [
+                {
+                    "availability": 99.99,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Vault",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.996,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Remote Access",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.987,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Common",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.998,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Edge Manager",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.979,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Optix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.943,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT DataMosaix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.979,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Vault",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.98,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Remote Access",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.988,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Common",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.79,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Edge Manager",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.979,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Optix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.965,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT DataMosaix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 93.885,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Vault",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.994,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Remote Access",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.897,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Common",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.336,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Edge Manager",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 100,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Optix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.765,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT DataMosaix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Vault",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Remote Access",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": 100,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Common",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Edge Manager",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Optix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": 92.167,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT DataMosaix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": 100,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Vault",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Remote Access",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": 99.972,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Common",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Edge Manager",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT Optix",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": 99.871,
+                    "year": 2024,
+                    "month": 5,
+                    "service": "FT DataMosaix",
+                    "subscription": "preprod"
+                }
+            ],
+            "pd_data": [
+                {
+                    "team": {
+                        "id": "PG19RXC",
+                        "name": "DevSecOps"
+                    },
+                    "data": {
+                        "MTTA": 1,
+                        "MTTR": null,
+                        "MTBF": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PZPH97Q",
+                        "name": "FactoryTalk Design Hub"
+                    },
+                    "data": {
+                        "MTTA": null,
+                        "MTTR": null,
+                        "MTBF": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PXAK4EH",
+                        "name": "LeMans Common Services"
+                    },
+                    "data": {
+                        "MTTA": 11,
+                        "MTTR": 6481,
+                        "MTBF": 744
+                    }
+                }
+            ],
+            "cost_data": [
+                {
+                    "total": 29833.2495896554,
+                    "actual": 29833.2495896554,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Production",
+                    "month": 5,
+                    "year": 2024
+                },
+                {
+                    "total": 17212.3539106691,
+                    "actual": 17212.3539106691,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Non-Production (Development)",
+                    "month": 5,
+                    "year": 2024
+                },
+                {
+                    "total": 22389.2422410755,
+                    "actual": 22389.2422410755,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Sandbox",
+                    "month": 5,
+                    "year": 2024
+                },
+                {
+                    "total": 11618.9944463537,
+                    "actual": 11618.9944463537,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub Demo",
+                    "month": 5,
+                    "year": 2024
+                },
+                {
+                    "total": 10343.0066670971,
+                    "actual": 10343.0066670971,
+                    "forecast": 0,
+                    "estimated": false,
+                    "name": "FTHub PreProduction",
+                    "month": 5,
+                    "year": 2024
+                }
+            ],
+            "aws_cost_data": [
+                {
+                    "account": "FT Twin Studio Production",
+                    "total": 6707.48,
+                    "trend": -17.16
+                },
+                {
+                    "account": "FT Twin Studio Non-Production",
+                    "total": 4193.65,
+                    "trend": 61.15
+                },
+                {
+                    "account": "FT Twin Studio Sandbox",
+                    "total": 4295.55,
+                    "trend": -8.92
+                },
+                {
+                    "account": "FT Optix",
+                    "total": 12569.72,
+                    "trend": 8.2
+                },
+                {
+                    "account": "FT Twin Studio Demo",
+                    "total": 0,
+                    "trend": 0
+                },
+                {
+                    "account": "FT Twin Studio Preprod",
+                    "total": 0,
+                    "trend": 0
+                }
+            ],
+            "security_data": [
+                {
+                    "score": 77.28,
+                    "subscription": "FTHub Production",
+                    "iso_27001_2013": {
+                        "pass": 11,
+                        "fail": 7,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 41,
+                        "fail": 20,
+                        "skip": 48
+                    },
+                    "soc_2_type_2": {
+                        "pass": 9,
+                        "fail": 8,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 50.07,
+                    "subscription": "FTHub Non-Production (Development)",
+                    "iso_27001_2013": {
+                        "pass": 4,
+                        "fail": 14,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 32,
+                        "fail": 29,
+                        "skip": 48
+                    },
+                    "soc_2_type_2": {
+                        "pass": 4,
+                        "fail": 13,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 33.910000000000004,
+                    "subscription": "FTHub Sandbox",
+                    "iso_27001_2013": {
+                        "pass": 9,
+                        "fail": 9,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 36,
+                        "fail": 25,
+                        "skip": 48
+                    },
+                    "soc_2_type_2": {
+                        "pass": 9,
+                        "fail": 8,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 57.49999999999999,
+                    "subscription": "FTHub Demo",
+                    "iso_27001_2013": {
+                        "pass": 11,
+                        "fail": 7,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 37,
+                        "fail": 24,
+                        "skip": 48
+                    },
+                    "soc_2_type_2": {
+                        "pass": 7,
+                        "fail": 10,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 52.239999999999995,
+                    "subscription": "FTHub PreProduction",
+                    "iso_27001_2013": {
+                        "pass": 5,
+                        "fail": 13,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 40,
+                        "fail": 20,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 4,
+                        "fail": 13,
+                        "skip": 44
+                    }
+                }
+            ],
+            "usage_data": {
+                "user_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 62757,
+                        "nonprod": 35633,
+                        "sandbox": 6902,
+                        "demo": 2790,
+                        "preprod": 2790
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 13512,
+                        "nonprod": 641,
+                        "sandbox": 184,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 3402,
+                        "nonprod": 0,
+                        "sandbox": 36,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 344,
+                        "nonprod": 7916,
+                        "sandbox": 36885,
+                        "demo": 1502,
+                        "preprod": 1502
+                    }
+                ],
+                "all_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 110193,
+                        "nonprod": 62774,
+                        "sandbox": 9602,
+                        "demo": 4578,
+                        "preprod": 4578
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 21721,
+                        "nonprod": 962,
+                        "sandbox": 302,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 6286,
+                        "nonprod": 0,
+                        "sandbox": 59,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 681,
+                        "nonprod": 14121,
+                        "sandbox": 67511,
+                        "demo": 2935,
+                        "preprod": 2935
+                    }
+                ],
+                "new_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 1443,
+                        "nonprod": 30,
+                        "sandbox": 41,
+                        "demo": 53,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 578,
+                        "nonprod": 3,
+                        "sandbox": 1,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 24,
+                        "nonprod": 0,
+                        "sandbox": 0,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 7,
+                        "nonprod": 0,
+                        "sandbox": 2,
+                        "demo": 3,
+                        "preprod": 0
+                    }
+                ],
+                "active_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 4317,
+                        "nonprod": 424,
+                        "sandbox": 453,
+                        "demo": 186,
+                        "preprod": 186
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 2336,
+                        "nonprod": 52,
+                        "sandbox": 21,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 75,
+                        "nonprod": 0,
+                        "sandbox": 5,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 69,
+                        "nonprod": 66,
+                        "sandbox": 69,
+                        "demo": 35,
+                        "preprod": 35
+                    }
+                ]
+            },
+            "app_cost_data": [
+                {
+                    "application": "FT Vault",
+                    "total": 8173.96,
+                    "trend": 17.3,
+                    "forecast_pct_of_budget": 84.39
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": 6009.69,
+                    "trend": 16.61,
+                    "forecast_pct_of_budget": 76.8
+                },
+                {
+                    "application": "FT Common Services",
+                    "total": 17585.46,
+                    "trend": 2.31,
+                    "forecast_pct_of_budget": 73.95
+                },
+                {
+                    "application": "FT Twin Studio",
+                    "total": 9948.78,
+                    "trend": -3.24,
+                    "forecast_pct_of_budget": 96.15
+                },
+                {
+                    "application": "FT Optix",
+                    "total": 14314.12,
+                    "trend": 7.87,
+                    "forecast_pct_of_budget": 82.33
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": 3005.57,
+                    "trend": 19.22,
+                    "forecast_pct_of_budget": 76.26
+                },
+                {
+                    "application": "FT Edge Manager",
+                    "total": 5793.6,
+                    "trend": 29.69,
+                    "forecast_pct_of_budget": 0.0
+                },
+                {
+                    "application": "FTHub Shared Services",
+                    "total": 46894.49,
+                    "trend": 12.5,
+                    "forecast_pct_of_budget": 83.74
+                },
+                {
+                    "application": "FTHub Ops Bootstrap",
+                    "total": 2360.37,
+                    "trend": -14.66,
+                    "forecast_pct_of_budget": 77.58
+                },
+                {
+                    "application": "FTHub Help Desk",
+                    "total": 227.18,
+                    "trend": 15.8,
+                    "forecast_pct_of_budget": 80.07
+                },
+                {
+                    "application": "Others",
+                    "total": 1327.69,
+                    "trend": 30.87,
+                    "forecast_pct_of_budget": 20.02
+                }
+            ],
+            "prisma_data": [
+                {
+                    "application": "FT Edge Manager",
+                    "total": {
+                        "critical": 9,
+                        "high": 49,
+                        "medium": 49
+                    }
+                },
+                {
+                    "application": "Testing",
+                    "total": {
+                        "critical": 10,
+                        "high": 35,
+                        "medium": 34
+                    }
+                },
+                {
+                    "application": "FT Vault",
+                    "total": {
+                        "critical": 4,
+                        "high": 21,
+                        "medium": 46
+                    }
+                },
+                {
+                    "application": "FT Common",
+                    "total": {
+                        "critical": 2,
+                        "high": 15,
+                        "medium": 35
+                    }
+                },
+                {
+                    "application": "FT TwinStudio",
+                    "total": {
+                        "critical": 2,
+                        "high": 10,
+                        "medium": 12
+                    }
+                },
+                {
+                    "application": "FT Optix",
+                    "total": {
+                        "critical": 1,
+                        "high": 13,
+                        "medium": 37
+                    }
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": {
+                        "critical": 0,
+                        "high": 25,
+                        "medium": 114
+                    }
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": {
+                        "critical": 0,
+                        "high": 10,
+                        "medium": 49
+                    }
+                }
+            ],
+            "synthetic_tests_data": [
+                {
+                    "result": 94.199,
+                    "test_name": "Launch Fiix service"
+                },
+                {
+                    "result": 99.078,
+                    "test_name": "Filter Design Hub services"
+                },
+                {
+                    "result": 93.986,
+                    "test_name": "Credits consumption"
+                },
+                {
+                    "result": 97.717,
+                    "test_name": "Launch FTRA trial service"
+                },
+                {
+                    "result": 92.288,
+                    "test_name": "Launch Optix service"
+                },
+                {
+                    "result": 98.416,
+                    "test_name": "Launch vault into Home page"
+                },
+                {
+                    "result": 96.85,
+                    "test_name": "Login SAML flow"
+                },
+                {
+                    "result": 97.384,
+                    "test_name": "Logout SAML flow"
+                }
+            ],
+            "aws_secure_score_data": [
+                {
+                    "score": 71.26,
+                    "subscription": "FT Twin Studio Production"
+                },
+                {
+                    "score": 55.62,
+                    "subscription": "FT Twin Studio Non-Production"
+                },
+                {
+                    "score": 43.2,
+                    "subscription": "FT Twin Studio Sandbox"
+                },
+                {
+                    "score": 20.7,
+                    "subscription": "FT Twin Studio Demo"
+                }
+            ]
+        },
+        {
+            "year": 2024,
+            "month": 6,
+            "availability_data": [
+                {
+                    "availability": 99.985,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Vault",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.99,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Remote Access",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.99,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Common",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.985,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Edge Manager",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.991,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Optix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.959,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT DataMosaix",
+                    "subscription": "prod"
+                },
+                {
+                    "availability": 99.985,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Vault",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.993,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Remote Access",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.994,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Common",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.584,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Edge Manager",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 100,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Optix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.979,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT DataMosaix",
+                    "subscription": "nonprod"
+                },
+                {
+                    "availability": 99.988,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Vault",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.981,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Remote Access",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.664,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Common",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 98.889,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Edge Manager",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 100,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Optix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": 99.841,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT DataMosaix",
+                    "subscription": "sandbox"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Vault",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Remote Access",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": 100,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Common",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Edge Manager",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Optix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": 90.807,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT DataMosaix",
+                    "subscription": "demo"
+                },
+                {
+                    "availability": 100,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Vault",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Remote Access",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": 99.997,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Common",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Edge Manager",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": null,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT Optix",
+                    "subscription": "preprod"
+                },
+                {
+                    "availability": 99.93,
+                    "year": 2024,
+                    "month": 6,
+                    "service": "FT DataMosaix",
+                    "subscription": "preprod"
+                }
+            ],
+            "pd_data": [
+                {
+                    "team": {
+                        "id": "PG19RXC",
+                        "name": "DevSecOps"
+                    },
+                    "data": {
+                        "MTTA": 0,
+                        "MTTR": 18,
+                        "MTBF": 34
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PZPH97Q",
+                        "name": "FactoryTalk Design Hub"
+                    },
+                    "data": {
+                        "MTTA": null,
+                        "MTTR": null,
+                        "MTBF": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": "PXAK4EH",
+                        "name": "LeMans Common Services"
+                    },
+                    "data": {
+                        "MTTA": 3,
+                        "MTTR": 26,
+                        "MTBF": 720
+                    }
+                }
+            ],
+            "cost_data": [
+                {
+                    "total": 24748.86000254522,
+                    "actual": 16648.5110359461,
+                    "forecast": 8100.348966599123,
+                    "estimated": true,
+                    "name": "FTHub Production",
+                    "month": 6,
+                    "year": 2024
+                },
+                {
+                    "total": 14906.05177450272,
+                    "actual": 9955.30954088061,
+                    "forecast": 4950.74223362211,
+                    "estimated": true,
+                    "name": "FTHub Non-Production (Development)",
+                    "month": 6,
+                    "year": 2024
+                },
+                {
+                    "total": 17581.146208946397,
+                    "actual": 12018.9407816174,
+                    "forecast": 5562.205427328995,
+                    "estimated": true,
+                    "name": "FTHub Sandbox",
+                    "month": 6,
+                    "year": 2024
+                },
+                {
+                    "total": 8964.427388777962,
+                    "actual": 6201.83605361784,
+                    "forecast": 2762.591335160122,
+                    "estimated": true,
+                    "name": "FTHub Demo",
+                    "month": 6,
+                    "year": 2024
+                },
+                {
+                    "total": 8066.804959922007,
+                    "actual": 5584.78951964669,
+                    "forecast": 2482.0154402753165,
+                    "estimated": true,
+                    "name": "FTHub PreProduction",
+                    "month": 6,
+                    "year": 2024
+                }
+            ],
+            "aws_cost_data": [
+                {
+                    "account": "FT Twin Studio Production",
+                    "total": 3825.94,
+                    "trend": -12.22
+                },
+                {
+                    "account": "FT Twin Studio Non-Production",
+                    "total": 2371.68,
+                    "trend": 9.86
+                },
+                {
+                    "account": "FT Twin Studio Sandbox",
+                    "total": 2211.53,
+                    "trend": -13.91
+                },
+                {
+                    "account": "FT Optix",
+                    "total": 8389.36,
+                    "trend": 26.54
+                },
+                {
+                    "account": "FT Twin Studio Demo",
+                    "total": 1.5,
+                    "trend": 1.35
+                },
+                {
+                    "account": "FT Twin Studio Preprod",
+                    "total": 2.06,
+                    "trend": 29.56
+                }
+            ],
+            "security_data": [
+                {
+                    "score": 77.28,
+                    "subscription": "FTHub Production",
+                    "iso_27001_2013": {
+                        "pass": 6,
+                        "fail": 12,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 38,
+                        "fail": 22,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 6,
+                        "fail": 11,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 56.940000000000005,
+                    "subscription": "FTHub Non-Production (Development)",
+                    "iso_27001_2013": {
+                        "pass": 6,
+                        "fail": 12,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 33,
+                        "fail": 28,
+                        "skip": 48
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 40.62,
+                    "subscription": "FTHub Sandbox",
+                    "iso_27001_2013": {
+                        "pass": 4,
+                        "fail": 14,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 33,
+                        "fail": 28,
+                        "skip": 48
+                    },
+                    "soc_2_type_2": {
+                        "pass": 4,
+                        "fail": 13,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 53.32,
+                    "subscription": "FTHub Demo",
+                    "iso_27001_2013": {
+                        "pass": 10,
+                        "fail": 8,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 34,
+                        "fail": 26,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 6,
+                        "fail": 11,
+                        "skip": 44
+                    }
+                },
+                {
+                    "score": 48.32,
+                    "subscription": "FTHub PreProduction",
+                    "iso_27001_2013": {
+                        "pass": 9,
+                        "fail": 9,
+                        "skip": 189
+                    },
+                    "azure_cis_1_4_0": {
+                        "pass": 40,
+                        "fail": 20,
+                        "skip": 49
+                    },
+                    "soc_2_type_2": {
+                        "pass": 5,
+                        "fail": 12,
+                        "skip": 44
+                    }
+                }
+            ],
+            "usage_data": {
+                "user_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 39339,
+                        "nonprod": 21918,
+                        "sandbox": 4134,
+                        "demo": 1590,
+                        "preprod": 1590
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 9209,
+                        "nonprod": 510,
+                        "sandbox": 207,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 2291,
+                        "nonprod": 0,
+                        "sandbox": 4,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 1166,
+                        "nonprod": 7259,
+                        "sandbox": 2467,
+                        "demo": 168,
+                        "preprod": 168
+                    }
+                ],
+                "all_sessions": [
+                    {
+                        "name": "FTDH",
+                        "production": 72615,
+                        "nonprod": 41412,
+                        "sandbox": 6115,
+                        "demo": 2792,
+                        "preprod": 2792
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 15237,
+                        "nonprod": 811,
+                        "sandbox": 324,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 4442,
+                        "nonprod": 0,
+                        "sandbox": 9,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 2211,
+                        "nonprod": 14445,
+                        "sandbox": 4752,
+                        "demo": 309,
+                        "preprod": 309
+                    }
+                ],
+                "new_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 791,
+                        "nonprod": 50,
+                        "sandbox": 50,
+                        "demo": 34,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 321,
+                        "nonprod": 1,
+                        "sandbox": 1,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 8,
+                        "nonprod": 0,
+                        "sandbox": 1,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 11,
+                        "nonprod": 3,
+                        "sandbox": 5,
+                        "demo": 1,
+                        "preprod": 0
+                    }
+                ],
+                "active_users": [
+                    {
+                        "name": "FTDH",
+                        "production": 3039,
+                        "nonprod": 378,
+                        "sandbox": 367,
+                        "demo": 142,
+                        "preprod": 142
+                    },
+                    {
+                        "name": "FTRA_Optix",
+                        "production": 1732,
+                        "nonprod": 43,
+                        "sandbox": 18,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTEdgeManager",
+                        "production": 51,
+                        "nonprod": 0,
+                        "sandbox": 4,
+                        "demo": 0,
+                        "preprod": 0
+                    },
+                    {
+                        "name": "FTDataMosaix",
+                        "production": 161,
+                        "nonprod": 49,
+                        "sandbox": 57,
+                        "demo": 34,
+                        "preprod": 34
+                    }
+                ]
+            },
+            "app_cost_data": [
+                {
+                    "application": "FT Vault",
+                    "total": 4581.47,
+                    "trend": -11.15,
+                    "forecast_pct_of_budget": 93.06
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": 2607.43,
+                    "trend": -29.36,
+                    "forecast_pct_of_budget": 96.02
+                },
+                {
+                    "application": "FT Common Services",
+                    "total": 8927.33,
+                    "trend": -14.99,
+                    "forecast_pct_of_budget": 88.05
+                },
+                {
+                    "application": "FT Twin Studio",
+                    "total": 5989.97,
+                    "trend": -6.91,
+                    "forecast_pct_of_budget": 96.71
+                },
+                {
+                    "application": "FT Optix",
+                    "total": 9310.69,
+                    "trend": 21.51,
+                    "forecast_pct_of_budget": 106.51
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": 1153.95,
+                    "trend": -38.79,
+                    "forecast_pct_of_budget": 104.41
+                },
+                {
+                    "application": "FT Edge Manager",
+                    "total": 2746.61,
+                    "trend": -30.27,
+                    "forecast_pct_of_budget": 0.0
+                },
+                {
+                    "application": "FTHub Shared Services",
+                    "total": 22304.7,
+                    "trend": -23.14,
+                    "forecast_pct_of_budget": 91.8
+                },
+                {
+                    "application": "FTHub Ops Bootstrap",
+                    "total": 661.73,
+                    "trend": -54.76,
+                    "forecast_pct_of_budget": 142.33
+                },
+                {
+                    "application": "FTHub Help Desk",
+                    "total": 126.5,
+                    "trend": -8.29,
+                    "forecast_pct_of_budget": 87.56
+                },
+                {
+                    "application": "Others",
+                    "total": 830.93,
+                    "trend": 27.75,
+                    "forecast_pct_of_budget": 33.18
+                }
+            ],
+            "prisma_data": [
+                {
+                    "application": "FT Edge Manager",
+                    "total": {
+                        "critical": 9,
+                        "high": 50,
+                        "medium": 52
+                    }
+                },
+                {
+                    "application": "Testing",
+                    "total": {
+                        "critical": 16,
+                        "high": 84,
+                        "medium": 52
+                    }
+                },
+                {
+                    "application": "FT Vault",
+                    "total": {
+                        "critical": 5,
+                        "high": 24,
+                        "medium": 53
+                    }
+                },
+                {
+                    "application": "FT Common",
+                    "total": {
+                        "critical": 2,
+                        "high": 18,
+                        "medium": 49
+                    }
+                },
+                {
+                    "application": "FT TwinStudio",
+                    "total": {
+                        "critical": 2,
+                        "high": 11,
+                        "medium": 15
+                    }
+                },
+                {
+                    "application": "FT Optix",
+                    "total": {
+                        "critical": 1,
+                        "high": 13,
+                        "medium": 53
+                    }
+                },
+                {
+                    "application": "FT DataMosaix",
+                    "total": {
+                        "critical": 0,
+                        "high": 28,
+                        "medium": 122
+                    }
+                },
+                {
+                    "application": "FT Remote Access",
+                    "total": {
+                        "critical": 0,
+                        "high": 5,
+                        "medium": 64
+                    }
+                }
+            ],
+            "synthetic_tests_data": [
+                {
+                    "result": null,
+                    "test_name": "Launch Fiix service"
+                },
+                {
+                    "result": 98.525,
+                    "test_name": "Filter Design Hub services"
+                },
+                {
+                    "result": 95.117,
+                    "test_name": "Credits consumption"
+                },
+                {
+                    "result": 98.74,
+                    "test_name": "Launch FTRA trial service"
+                },
+                {
+                    "result": null,
+                    "test_name": "Launch Optix service"
+                },
+                {
+                    "result": 99.198,
+                    "test_name": "Launch vault into Home page"
+                },
+                {
+                    "result": null,
+                    "test_name": "Login SAML flow"
+                },
+                {
+                    "result": 94.492,
+                    "test_name": "Logout SAML flow"
+                }
+            ],
+            "aws_secure_score_data": [
+                {
+                    "score": 50.7,
+                    "subscription": "FT Twin Studio Production"
+                },
+                {
+                    "score": 58.59,
+                    "subscription": "FT Twin Studio Non-Production"
+                },
+                {
+                    "score": 51.97,
+                    "subscription": "FT Twin Studio Sandbox"
+                },
+                {
+                    "score": 32.88,
+                    "subscription": "FT Twin Studio Demo"
+                },
+                {
+                    "score": 31.54,
+                    "subscription": "FT Twin Studio Pre-Prod"
+                }
+            ]
+        }
+    ]
+}

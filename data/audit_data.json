@@ -1,0 +1,10 @@
+{
+    "data": {
+        "cost_audit": {
+            "app_total": 56896.61000000001,
+            "service_total": 67806.08,
+            "error_total": 10909.469999999994,
+            "percent_error": 19.174200360970524
+        }
+    }
+}

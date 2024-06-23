@@ -1,0 +1,132 @@
+{
+    "overall":{
+        "cost_score":"green",
+        "cost_note":"Cloud cost lower or stable month to month"
+    },
+    "availability": [
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        }
+    ],
+    "performance": [
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": "No FTRA on call yet"
+        },
+        {
+            "note": ""
+        }
+    ],
+    "cost": [
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": "Gainsight PX data not available for demo environment"
+        },
+        {
+            "note": "Gainsight PX data not available for PreProd environment"
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        }
+    ],
+    "aws_cost": [
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        }
+    ],
+    "application_cost": [
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": "Includes Terratest, Examples, Testing, Golden Image"
+        },
+        {
+            "note": ""
+        }
+    ],
+    "security": [
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        },
+        {
+            "note": ""
+        }
+    ]
+}
