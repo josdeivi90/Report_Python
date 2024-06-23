@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2024 Manticore Metrics</title>
+    <style>
+        :root {
+            --text: #000;
+            --bg: #fff;
+            --tabletext: #333;
+            --tableheadtext: #333;
+            --tableheadfill: #CCC;
+            --svgopacity: 1;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            height: 100vh;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text: #ccc;
+                --bg: #000;
+                --tabletext: #AAA;
+                --tableheadtext: #AAA;
+                --tableheadfill: #333;
+                --svgopacity: .75;
+            }
+        }
+
+        svg {
+            opacity: var(--svgopacity);
+        }
+
+        table {
+            color: var(--tabletext);
+            background: var(--bg);
+            border: 1px solid grey;
+            font-size: 12pt;
+            border-collapse: collapse;
+        }
+
+        table thead th,
+        table tfoot th {
+            color: var(--tableheadtext);
+            background: var(--tableheadfill);
+        }
+
+        table caption {
+            padding: .5em;
+        }
+
+        table th,
+        table td {
+            padding: .5em;
+            border: 1px solid lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>2024 Manticore Metrics</h1>
+    <p style="font-size:12px">Metrics Compiled 06/21/2024, 02:47:13 UTC</p>
+    <hr>
+    <h2>Overall</h2>
+    <img src="images/e358bea9-3a06-4a47-be0e-edbca1fd6ae9.png" alt="e358bea9-3a06-4a47-be0e-edbca1fd6ae9.png"><img
+        src="images/9af30725-160c-432f-a9e2-58e97f53406a.png" alt="9af30725-160c-432f-a9e2-58e97f53406a.png"><img
+        src="images/f2d8bedf-3792-41c2-8a69-2478478c4362.png" alt="f2d8bedf-3792-41c2-8a69-2478478c4362.png"><img
+        src="images/741786d3-3797-447a-a45a-b0b49039f998.png" alt="741786d3-3797-447a-a45a-b0b49039f998.png">
+    <br>
+    <hr>
+
+    <h2>Recent Accomplishments</h2>
+    <ul>
+        <li><sub style="font-size:17px"><b>Cloud Cost Reduction </b></sub>
+            <sub style="font-size:17px">- Continued clearing of old and unused resources and tuning of logging resulted
+                in around $40k/month savings in March since November '23 peak.</sub>
+        </li>
+        <li><sub style="font-size:17px"><b>Metrics Reporting </b></sub>
+            <sub style="font-size:17px">- Synthetic Test pass rate and Prisma Cloud container image vulnerability scan
+                results added to reports.</sub>
+        </li>
+        <li><sub style="font-size:17px"><b>Metrics Reporting </b></sub>
+            <sub style="font-size:17px">- Metrics now delivered to an email distribution list. See <a
+                    href="https://rockwellautomation.atlassian.net/wiki/spaces/POMDSO/pages/3688170438/DevSecOps+Metrics+-+Frequently+Asked+Questions">here</a>
+                for how to add new recipients.</sub>
+        </li>
+        <li><sub style="font-size:17px"><b>Metrics Reporting </b></sub>
+            <sub style="font-size:17px">- Extended html version of this report is now included in the email delivery as
+                an attachment. Download the file and view in a browser.</sub>
+        </li>
+    </ul>
+    <hr>
+    <h2>Availability</h2>
+    <table>
+        <thead>
+            <th style='text-align:left'>Service</th>
+            <th style='text-align:right'>Jan</th>
+            <th style='text-align:right'>Feb</th>
+            <th style='text-align:right'>Mar</th>
+            <th style='text-align:right'>Apr</th>
+            <th style='text-align:right'>May</th>
+            <th style='text-align:right'>Jdasdasdaun</th>
+            <th style='text-align:right'>SLA</th>
+            <th style='text-align:center'>Trend</th>
+        </thead>
+        <tr>
+            <td style='text-align:left'>FT Vault</td>
+            <td style='text-align:right'>99.99200%</td>
+            <td style='text-align:right'>99.99400%</td>
+            <td style='text-align:right'>99.98800%</td>
+            <td style='text-align:right'>99.99400%</td>
+            <td style='text-align:right'>99.99000%</td>
+            <td bgcolor='yellow' style='text-align:right'><b>99.98500%</b></td>
+            <td style='text-align:right'>99.00000%</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Remote Access</td>
+            <td style='text-align:right'>99.99300%</td>
+            <td style='text-align:right'>99.99300%</td>
+            <td style='text-align:right'>99.99600%</td>
+            <td style='text-align:right'>99.95200%</td>
+            <td style='text-align:right'>99.99600%</td>
+            <td style='text-align:right'>99.99000%</td>
+            <td style='text-align:right'>99.00000%</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Common</td>
+            <td style='text-align:right'>99.98800%</td>
+            <td style='text-align:right'>99.99100%</td>
+            <td style='text-align:right'>99.95200%</td>
+            <td style='text-align:right'>99.98300%</td>
+            <td style='text-align:right'>99.98700%</td>
+            <td style='text-align:right'>99.99000%</td>
+            <td style='text-align:right'>99.00000%</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Edge Manager</td>
+            <td style='text-align:right'>99.97200%</td>
+            <td style='text-align:right'>99.99200%</td>
+            <td style='text-align:right'>99.99400%</td>
+            <td style='text-align:right'>99.99700%</td>
+            <td style='text-align:right'>99.99800%</td>
+            <td bgcolor='yellow' style='text-align:right'><b>99.98500%</b></td>
+            <td style='text-align:right'>99.00000%</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Optix</td>
+            <td style='text-align:right'>99.95300%</td>
+            <td style='text-align:right'>99.98900%</td>
+            <td style='text-align:right'>99.98100%</td>
+            <td style='text-align:right'>99.98900%</td>
+            <td style='text-align:right'>99.97900%</td>
+            <td style='text-align:right'>99.99100%</td>
+            <td style='text-align:right'>99.00000%</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT DataMosaix</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>99.62400%</td>
+            <td style='text-align:right'>99.67900%</td>
+            <td style='text-align:right'>99.94300%</td>
+            <td bgcolor='yellow' style='text-align:right'><b>99.95900%</b></td>
+            <td style='text-align:right'>99.00000%</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+    </table>
+    <sub>Measured as percentage of all web accesses that do not result in server error<br>
+    </sub>
+    <hr>
+    <h2>Incident Performance</h2>
+    <table>
+        <thead>
+            <th style='text-align:left'>Team</th>
+            <th style='text-align:left'>Metric</th>
+            <th style='text-align:right'>Jan</th>
+            <th style='text-align:right'>Feb</th>
+            <th style='text-align:right'>Mar</th>
+            <th style='text-align:right'>Apr</th>
+            <th style='text-align:right'>May</th>
+            <th style='text-align:right'>Jun</th>
+            <th style='text-align:center'> Trend </th>
+        </thead>
+        <tr>
+            <td style='text-align:left' rowspan='3'>DevSecOps</td>
+            <td style='text-align:left'>MTTA</td>
+            <td style='text-align:right'>1 min</td>
+            <td style='text-align:right'>0 min</td>
+            <td style='text-align:right'>1 min</td>
+            <td style='text-align:right'>1 min</td>
+            <td style='text-align:right'>1 min</td>
+            <td style='text-align:right'>0 min</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>MTTR</td>
+            <td style='text-align:right'>140 min</td>
+            <td style='text-align:right'>14 min</td>
+            <td style='text-align:right'>38 min</td>
+            <td style='text-align:right'>18 min</td>
+            <td style='text-align:right'>N/A</td>
+            <td bgcolor='red' style='text-align:right'><b>18 min</b></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>MTBF</td>
+            <td style='text-align:right'>16 hr</td>
+            <td style='text-align:right'>30 hr</td>
+            <td style='text-align:right'>41 hr</td>
+            <td style='text-align:right'>103 hr</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>34 hr</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FactoryTalk Design Hub</td>
+            <td style='text-align:left'>MTTA</td>
+            <td style='text-align:right'>1 min</td>
+            <td style='text-align:right'>0 min</td>
+            <td style='text-align:right'>1 min</td>
+            <td style='text-align:right'>0 min</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>MTTR</td>
+            <td style='text-align:right'>19 min</td>
+            <td style='text-align:right'>245 min</td>
+            <td style='text-align:right'>32 min</td>
+            <td style='text-align:right'>15 min</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>MTBF</td>
+            <td style='text-align:right'>62 hr</td>
+            <td style='text-align:right'>116 hr</td>
+            <td style='text-align:right'>248 hr</td>
+            <td style='text-align:right'>720 hr</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>LeMans Common Services</td>
+            <td style='text-align:left'>MTTA</td>
+            <td style='text-align:right'>47 min</td>
+            <td style='text-align:right'>8 min</td>
+            <td style='text-align:right'>8 min</td>
+            <td style='text-align:right'>3 min</td>
+            <td style='text-align:right'>11 min</td>
+            <td style='text-align:right'>3 min</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>MTTR</td>
+            <td style='text-align:right'>3583 min</td>
+            <td style='text-align:right'>8826 min</td>
+            <td style='text-align:right'>1072 min</td>
+            <td style='text-align:right'>43 min</td>
+            <td style='text-align:right'>6481 min</td>
+            <td style='text-align:right'>26 min</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>MTBF</td>
+            <td style='text-align:right'>32 hr</td>
+            <td style='text-align:right'>77 hr</td>
+            <td style='text-align:right'>53 hr</td>
+            <td style='text-align:right'>40 hr</td>
+            <td style='text-align:right'>744 hr</td>
+            <td style='text-align:right'>720 hr</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+    </table>
+    <sub>MTTA = Mean time to acknowledge, MTTR = Mean time to resolve, MTBF = Mean time between failures/incidents<br>
+        Includes high urgency incidents received by PagerDuty. MTTR and MTBF omit incidents judged as expected
+        behavior</sub>
+    <hr>
+    <h2>Application Cost</h2>
+    <table>
+        <thead>
+            <th style='text-align:left'>Application</th>
+            <th style='text-align:right'>Jan</th>
+            <th style='text-align:right'>Feb</th>
+            <th style='text-align:right'>Mar</th>
+            <th style='text-align:right'>Apr</th>
+            <th style='text-align:right'>May</th>
+            <th style='text-align:right'>Jun</th>
+            <th style='text-align:center'> Trend </th>
+        </thead>
+        <tr>
+            <td style='text-align:left'>FT Vault</td>
+            <td style='text-align:right'>$9312.33</td>
+            <td style='text-align:right'>$6941.06</td>
+            <td style='text-align:right'>$6586.96</td>
+            <td style='text-align:right'>$6987.61</td>
+            <td style='text-align:right'>$8173.96</td>
+            <td style='text-align:right'>$4581.47</td>
+            <td style='text-align:center;color:green'>&#8595 11.15%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Remote Access</td>
+            <td style='text-align:right'>$6794.89</td>
+            <td style='text-align:right'>$4967.00</td>
+            <td style='text-align:right'>$5162.52</td>
+            <td style='text-align:right'>$5132.16</td>
+            <td style='text-align:right'>$6009.69</td>
+            <td style='text-align:right'>$2607.43</td>
+            <td style='text-align:center;color:green'>&#8595 29.36%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Common Services</td>
+            <td style='text-align:right'>$18004.52</td>
+            <td style='text-align:right'>$16332.76</td>
+            <td style='text-align:right'>$17394.09</td>
+            <td style='text-align:right'>$17145.66</td>
+            <td style='text-align:right'>$17585.46</td>
+            <td style='text-align:right'>$8927.33</td>
+            <td style='text-align:center;color:green'>&#8595 14.99%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Twin Studio</td>
+            <td style='text-align:right'>$7006.03</td>
+            <td style='text-align:right'>$10060.38</td>
+            <td style='text-align:right'>$10984.16</td>
+            <td style='text-align:right'>$10281.55</td>
+            <td style='text-align:right'>$9948.78</td>
+            <td style='text-align:right'>$5989.97</td>
+            <td style='text-align:center;color:green'>&#8595 6.91%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Optix</td>
+            <td style='text-align:right'>$13151.17</td>
+            <td style='text-align:right'>$12539.81</td>
+            <td style='text-align:right'>$12684.33</td>
+            <td style='text-align:right'>$13208.66</td>
+            <td style='text-align:right'>$14314.12</td>
+            <td style='text-align:right'>$9310.69</td>
+            <td style='text-align:center;color:red'>&#8593 21.51%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT DataMosaix</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>$2517.35</td>
+            <td style='text-align:right'>$3005.57</td>
+            <td style='text-align:right'>$1153.95</td>
+            <td style='text-align:center;color:green'>&#8595 38.79%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Edge Manager</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>$5793.60</td>
+            <td style='text-align:right'>$2746.61</td>
+            <td style='text-align:center;color:green'>&#8595 30.27%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FTHub Shared Services</td>
+            <td style='text-align:right'>$69857.30</td>
+            <td style='text-align:right'>$52477.76</td>
+            <td style='text-align:right'>$46052.29</td>
+            <td style='text-align:right'>$41389.87</td>
+            <td style='text-align:right'>$46894.49</td>
+            <td style='text-align:right'>$22304.70</td>
+            <td style='text-align:center;color:green'>&#8595 23.14%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FTHub Ops Bootstrap</td>
+            <td style='text-align:right'>$3055.11</td>
+            <td style='text-align:right'>$1777.91</td>
+            <td style='text-align:right'>$2163.98</td>
+            <td style='text-align:right'>$2735.94</td>
+            <td style='text-align:right'>$2360.37</td>
+            <td style='text-align:right'>$661.73</td>
+            <td style='text-align:center;color:green'>&#8595 54.76%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FTHub Help Desk</td>
+            <td style='text-align:right'>$203.91</td>
+            <td style='text-align:right'>$190.27</td>
+            <td style='text-align:right'>$201.80</td>
+            <td style='text-align:right'>$195.91</td>
+            <td style='text-align:right'>$227.18</td>
+            <td style='text-align:right'>$126.50</td>
+            <td style='text-align:center;color:green'>&#8595 8.29%</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Others</td>
+            <td style='text-align:right'>$2529.07</td>
+            <td style='text-align:right'>$1622.63</td>
+            <td style='text-align:right'>$1181.06</td>
+            <td style='text-align:right'>$1148.57</td>
+            <td style='text-align:right'>$1327.69</td>
+            <td style='text-align:right'>$830.93</td>
+            <td style='text-align:center;color:red'>&#8593 27.75%</td>
+        </tr>
+    </table>
+    <sub>Generated from perspectives in Harness CCM. Current month is partial to date.<br>
+        Unidentified costs are currently 19.17% of $67806.08 service total.<br>
+        <b>Note: Identified mis-tagged Twin Studio EC2 instances, and are in the process of re-tagging them</b></sub>
+    <br>
+
+    <hr>
+    <h2>Cloud Provider Cost</h2>
+    <table>
+        <thead>
+            <th style='text-align:left'>Subscription</th>
+            <th style='text-align:left'>Provider</th>
+            <th style='text-align:left'>Metric</th>
+            <th style='text-align:right'>Jan</th>
+            <th style='text-align:right'>Feb</th>
+            <th style='text-align:right'>Mar</th>
+            <th style='text-align:right'>Apr</th>
+            <th style='text-align:right'>May</th>
+            <th style='text-align:right'>Jun</th>
+            <th style='text-align:right'>Reduction (Gain)</th>
+            <th style='text-align:center'> Trend </th>
+        </thead>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FTHub Production</td>
+            <td style='text-align:left' rowspan='3'>Azure</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>$34367.85</td>
+            <td style='text-align:right'>$30106.89</td>
+            <td style='text-align:right'>$29058.79</td>
+            <td style='text-align:right'>$29120.79</td>
+            <td style='text-align:right'>$29833.25</td>
+            <td style='text-align:right'>$24748.86<small> (est)</small></td>
+            <td style='text-align:right'>27.99%</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/Active User</small></td>
+            <td style='text-align:right'><small> $6.83</small></td>
+            <td style='text-align:right'><small> $4.51</small></td>
+            <td style='text-align:right'><small> $4.78</small></td>
+            <td style='text-align:right'><small> $4.33</small></td>
+            <td style='text-align:right'><small> $4.39</small></td>
+            <td style='text-align:right'><small> $4.97</small><small> (est)</small></td>
+            <td style='text-align:right'><small>27.28%</small></td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/User Session</small></td>
+            <td style='text-align:right'><small> $0.41</small></td>
+            <td style='text-align:right'><small> $0.33</small></td>
+            <td style='text-align:right'><small> $0.32</small></td>
+            <td style='text-align:right'><small> $0.33</small></td>
+            <td style='text-align:right'><small> $0.37</small></td>
+            <td style='text-align:right'><small> $0.48</small><small> (est)</small></td>
+            <td style='text-align:right'><small>(45.17%)</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FTHub Non-Production (Development)</td>
+            <td style='text-align:left' rowspan='3'>Azure</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>$29109.53</td>
+            <td style='text-align:right'>$21162.17</td>
+            <td style='text-align:right'>$19154.17</td>
+            <td style='text-align:right'>$17015.30</td>
+            <td style='text-align:right'>$17212.35</td>
+            <td style='text-align:right'>$14906.05<small> (est)</small></td>
+            <td style='text-align:right'>48.79%</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/Active User</small></td>
+            <td style='text-align:right'><small> $52.26</small></td>
+            <td style='text-align:right'><small> $28.22</small></td>
+            <td style='text-align:right'><small> $23.50</small></td>
+            <td style='text-align:right'><small> $23.60</small></td>
+            <td style='text-align:right'><small> $31.76</small></td>
+            <td style='text-align:right'><small> $31.72</small><small> (est)</small></td>
+            <td style='text-align:right'><small>39.31%</small></td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/User Session</small></td>
+            <td style='text-align:right'><small> $0.71</small></td>
+            <td style='text-align:right'><small> $0.44</small></td>
+            <td style='text-align:right'><small> $0.47</small></td>
+            <td style='text-align:right'><small> $0.45</small></td>
+            <td style='text-align:right'><small> $0.39</small></td>
+            <td style='text-align:right'><small> $0.50</small><small> (est)</small></td>
+            <td style='text-align:right'><small>(14.67%)</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FTHub Sandbox</td>
+            <td style='text-align:left' rowspan='3'>Azure</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>$41381.98</td>
+            <td style='text-align:right'>$27657.62</td>
+            <td style='text-align:right'>$25301.52</td>
+            <td style='text-align:right'>$22857.76</td>
+            <td style='text-align:right'>$22389.24</td>
+            <td style='text-align:right'>$17581.15<small> (est)</small></td>
+            <td style='text-align:right'>57.51%</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/Active User</small></td>
+            <td style='text-align:right'><small> $73.11</small></td>
+            <td style='text-align:right'><small> $33.48</small></td>
+            <td style='text-align:right'><small> $36.25</small></td>
+            <td style='text-align:right'><small> $43.21</small></td>
+            <td style='text-align:right'><small> $40.86</small></td>
+            <td style='text-align:right'><small> $39.42</small><small> (est)</small></td>
+            <td style='text-align:right'><small>46.08%</small></td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/User Session</small></td>
+            <td style='text-align:right'><small> $2.73</small></td>
+            <td style='text-align:right'><small> $2.72</small></td>
+            <td style='text-align:right'><small> $2.00</small></td>
+            <td style='text-align:right'><small> $0.49</small></td>
+            <td style='text-align:right'><small> $0.51</small></td>
+            <td style='text-align:right'><small> $2.58</small><small> (est)</small></td>
+            <td style='text-align:right'><small>5.12%</small></td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FTHub Demo</td>
+            <td style='text-align:left' rowspan='3'>Azure</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>$13343.78</td>
+            <td style='text-align:right'>$10432.82</td>
+            <td style='text-align:right'>$11335.59</td>
+            <td style='text-align:right'>$11147.65</td>
+            <td style='text-align:right'>$11618.99</td>
+            <td style='text-align:right'>$8964.43<small> (est)</small></td>
+            <td style='text-align:right'>32.82%</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/Active User</small></td>
+            <td style='text-align:right'><small> N/A</small></td>
+            <td style='text-align:right'><small> N/A</small></td>
+            <td style='text-align:right'><small> $149.15</small></td>
+            <td style='text-align:right'><small> $58.06</small></td>
+            <td style='text-align:right'><small> $52.57</small></td>
+            <td style='text-align:right'><small> $50.93</small><small> (est)</small></td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/User Session</small></td>
+            <td style='text-align:right'><small> N/A</small></td>
+            <td style='text-align:right'><small> N/A</small></td>
+            <td style='text-align:right'><small> $26.18</small></td>
+            <td style='text-align:right'><small> $4.24</small></td>
+            <td style='text-align:right'><small> $2.71</small></td>
+            <td style='text-align:right'><small> $5.10</small><small> (est)</small></td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FTHub PreProduction</td>
+            <td style='text-align:left' rowspan='3'>Azure</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>$12006.47</td>
+            <td style='text-align:right'>$9051.33</td>
+            <td style='text-align:right'>$9960.78</td>
+            <td style='text-align:right'>$9882.18</td>
+            <td style='text-align:right'>$10343.01</td>
+            <td style='text-align:right'>$8066.80<small> (est)</small></td>
+            <td style='text-align:right'>32.81%</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/Active User</small></td>
+            <td style='text-align:right'><small> N/A</small></td>
+            <td style='text-align:right'><small> N/A</small></td>
+            <td style='text-align:right'><small> $131.06</small></td>
+            <td style='text-align:right'><small> $51.47</small></td>
+            <td style='text-align:right'><small> $46.80</small></td>
+            <td style='text-align:right'><small> $45.83</small><small> (est)</small></td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'><small>Cost/User Session</small></td>
+            <td style='text-align:right'><small> N/A</small></td>
+            <td style='text-align:right'><small> N/A</small></td>
+            <td style='text-align:right'><small> $23.00</small></td>
+            <td style='text-align:right'><small> $3.76</small></td>
+            <td style='text-align:right'><small> $2.41</small></td>
+            <td style='text-align:right'><small> $4.59</small><small> (est)</small></td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Twin Studio Production</td>
+            <td style='text-align:left' rowspan='3'>AWS</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>$4931.98</td>
+            <td style='text-align:right'>$8726.31</td>
+            <td style='text-align:right'>$8300.48</td>
+            <td style='text-align:right'>$8097.26</td>
+            <td style='text-align:right'>$6707.48</td>
+            <td style='text-align:right'>$3825.94</td>
+            <td style='text-align:right'>12.22%</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Twin Studio Non-Production</td>
+            <td style='text-align:left' rowspan='3'>AWS</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>$1147.48</td>
+            <td style='text-align:right'>$1818.65</td>
+            <td style='text-align:right'>$2262.50</td>
+            <td style='text-align:right'>$2602.11</td>
+            <td style='text-align:right'>$4193.65</td>
+            <td style='text-align:right'>$2371.68</td>
+            <td style='text-align:right'>(9.86%)</td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Twin Studio Sandbox</td>
+            <td style='text-align:left' rowspan='3'>AWS</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>$7026.69</td>
+            <td style='text-align:right'>$4255.52</td>
+            <td style='text-align:right'>$4912.01</td>
+            <td style='text-align:right'>$4711.86</td>
+            <td style='text-align:right'>$4295.55</td>
+            <td style='text-align:right'>$2211.53</td>
+            <td style='text-align:right'>13.91%</td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Optix</td>
+            <td style='text-align:left' rowspan='3'>AWS</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>$10367.54</td>
+            <td style='text-align:right'>$10845.74</td>
+            <td style='text-align:right'>$10982.16</td>
+            <td style='text-align:right'>$11559.97</td>
+            <td style='text-align:right'>$12569.72</td>
+            <td style='text-align:right'>$8389.36</td>
+            <td style='text-align:right'>(26.54%)</td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Twin Studio Demo</td>
+            <td style='text-align:left' rowspan='3'>AWS</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>$1.50</td>
+            <td style='text-align:right'>(1.35%)</td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Twin Studio Preprod</td>
+            <td style='text-align:left' rowspan='3'>AWS</td>
+            <td style='text-align:left'>Total Cost</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>$2.06</td>
+            <td style='text-align:right'>(29.56%)</td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'><b>Total</b></td>
+            <td style='text-align:left'></td>
+            <td style='text-align:left'><b>Total Cost</b></td>
+            <td style='text-align:right'><b>$153683.30</b></td>
+            <td style='text-align:right'><b>$124057.04</b></td>
+            <td style='text-align:right'><b>$121268.00</b></td>
+            <td style='text-align:right'><b>$116994.88</b></td>
+            <td style='text-align:right'><b>$119163.25</b></td>
+            <td style='text-align:right'><b>$91069.36<b> (est)</b></b></td>
+            <td style='text-align:right'><b>40.74%</b></td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+    </table>
+
+    <br>
+    <sub><b>For Azure provider: </b></sub>
+    <sub>Current subscription estimates are actual costs plus forecast from Azure API. Reduction over 6 months!</sub>
+    <br>
+    <sub><b>For AWS provider: </b></sub>
+    <sub>Data pulled from Harness. Reduction is trend over one month!</sub>
+
+    <hr>
+    <h2>Security and Compliance</h2>
+    <table>
+        <thead>
+            <th style='text-align:left'>Subscription</th>
+            <th style='text-align:left'>Metric</th>
+            <th style='text-align:right'>Jan</th>
+            <th style='text-align:right'>Feb</th>
+            <th style='text-align:right'>Mar</th>
+            <th style='text-align:right'>Apr</th>
+            <th style='text-align:right'>May</th>
+            <th style='text-align:right'>Jun</th>
+            <th style='text-align:center'>Trend</th>
+        </thead>
+        <tr>
+            <td style='text-align:left' rowspan='4'>FTHub Production</td>
+            <td style='text-align:left'>Secure Score</td>
+            <td style='text-align:right'><img src="images/d767dc6c-c964-4840-80ce-62687d1477dd.png"
+                    alt="d767dc6c-c964-4840-80ce-62687d1477dd.png"></td>
+            <td style='text-align:right'><img src="images/18686a3f-1bb0-4926-945c-5382cc8a441e.png"
+                    alt="18686a3f-1bb0-4926-945c-5382cc8a441e.png"></td>
+            <td style='text-align:right'><img src="images/a2fc1759-4be1-4fd9-8648-5dd68fa350c8.png"
+                    alt="a2fc1759-4be1-4fd9-8648-5dd68fa350c8.png"></td>
+            <td style='text-align:right'><img src="images/fdf72acd-d929-4930-a0ef-1430e536f122.png"
+                    alt="fdf72acd-d929-4930-a0ef-1430e536f122.png"></td>
+            <td style='text-align:right'><img src="images/1b7423ad-1884-440d-8d99-5d699d26558e.png"
+                    alt="1b7423ad-1884-440d-8d99-5d699d26558e.png"></td>
+            <td style='text-align:right'><img src="images/56541167-d640-4fbf-8290-29a787370a87.png"
+                    alt="56541167-d640-4fbf-8290-29a787370a87.png"></td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>ISO 27001:2013</td>
+            <td style='text-align:right'><img src="images/7719dbaa-9036-4377-a484-67448c919e8a.png"
+                    alt="7719dbaa-9036-4377-a484-67448c919e8a.png"></td>
+            <td style='text-align:right'><img src="images/8544a5c0-2b6e-4816-8d7a-35c749457bf7.png"
+                    alt="8544a5c0-2b6e-4816-8d7a-35c749457bf7.png"></td>
+            <td style='text-align:right'><img src="images/c7483aa8-0374-41f3-8d7f-1ffd2dbfb9a5.png"
+                    alt="c7483aa8-0374-41f3-8d7f-1ffd2dbfb9a5.png"></td>
+            <td style='text-align:right'><img src="images/95dbb1c1-aa78-4e93-a4aa-6cfc698f230a.png"
+                    alt="95dbb1c1-aa78-4e93-a4aa-6cfc698f230a.png"></td>
+            <td style='text-align:right'><img src="images/ded2fcd6-db9b-46ba-a8e4-98a5bfdc1e26.png"
+                    alt="ded2fcd6-db9b-46ba-a8e4-98a5bfdc1e26.png"></td>
+            <td style='text-align:right'><img src="images/8927bcc2-80f2-4208-9f5b-938b8974581e.png"
+                    alt="8927bcc2-80f2-4208-9f5b-938b8974581e.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Azure CIS 1.4.0</td>
+            <td style='text-align:right'><img src="images/32cc509e-f824-416a-b0f3-ebb239431b79.png"
+                    alt="32cc509e-f824-416a-b0f3-ebb239431b79.png"></td>
+            <td style='text-align:right'><img src="images/cc6bd34e-2ca0-47c3-8787-c542fde057f4.png"
+                    alt="cc6bd34e-2ca0-47c3-8787-c542fde057f4.png"></td>
+            <td style='text-align:right'><img src="images/32411096-1e58-4d4b-ac13-8b659110d7ad.png"
+                    alt="32411096-1e58-4d4b-ac13-8b659110d7ad.png"></td>
+            <td style='text-align:right'><img src="images/9768d8a6-045c-4900-abed-e6954fa2d4f3.png"
+                    alt="9768d8a6-045c-4900-abed-e6954fa2d4f3.png"></td>
+            <td style='text-align:right'><img src="images/54bf7bae-795b-4239-92fe-dda5662315cb.png"
+                    alt="54bf7bae-795b-4239-92fe-dda5662315cb.png"></td>
+            <td style='text-align:right'><img src="images/cf25ca87-817b-41af-94d7-d128819dd761.png"
+                    alt="cf25ca87-817b-41af-94d7-d128819dd761.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>SOC 2 Type 2</td>
+            <td style='text-align:right'><img src="images/e550e87c-365c-42c1-a023-a079c4493caa.png"
+                    alt="e550e87c-365c-42c1-a023-a079c4493caa.png"></td>
+            <td style='text-align:right'><img src="images/de03085c-a4ef-43c2-a792-735ded1b4f2d.png"
+                    alt="de03085c-a4ef-43c2-a792-735ded1b4f2d.png"></td>
+            <td style='text-align:right'><img src="images/c4529ef2-f4a9-48d4-a98b-fd84b83562c2.png"
+                    alt="c4529ef2-f4a9-48d4-a98b-fd84b83562c2.png"></td>
+            <td style='text-align:right'><img src="images/fc7a6645-a98c-4f1e-b54f-efd8804e7bb8.png"
+                    alt="fc7a6645-a98c-4f1e-b54f-efd8804e7bb8.png"></td>
+            <td style='text-align:right'><img src="images/70b2525b-1e9d-4508-9cef-759c4eb70be9.png"
+                    alt="70b2525b-1e9d-4508-9cef-759c4eb70be9.png"></td>
+            <td style='text-align:right'><img src="images/c3826772-b798-4728-aec4-4b770ca506f3.png"
+                    alt="c3826772-b798-4728-aec4-4b770ca506f3.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='4'>FTHub Non-Production (Development)</td>
+            <td style='text-align:left'>Secure Score</td>
+            <td style='text-align:right'><img src="images/53e9813d-adf6-4bb4-b315-7a7da9c3c65b.png"
+                    alt="53e9813d-adf6-4bb4-b315-7a7da9c3c65b.png"></td>
+            <td style='text-align:right'><img src="images/7c6f64f5-a63a-4666-94d0-2ae880d29b50.png"
+                    alt="7c6f64f5-a63a-4666-94d0-2ae880d29b50.png"></td>
+            <td style='text-align:right'><img src="images/65bc9742-eacd-4082-92d7-eccab68a6bc3.png"
+                    alt="65bc9742-eacd-4082-92d7-eccab68a6bc3.png"></td>
+            <td style='text-align:right'><img src="images/40856f3f-7b6d-4258-888c-c3b1a75509da.png"
+                    alt="40856f3f-7b6d-4258-888c-c3b1a75509da.png"></td>
+            <td style='text-align:right'><img src="images/0b2fb4f7-dfee-4110-80a9-eee3e000f3d9.png"
+                    alt="0b2fb4f7-dfee-4110-80a9-eee3e000f3d9.png"></td>
+            <td style='text-align:right'><img src="images/f99ba1b6-994d-4a50-b3a2-87c0729f2cfa.png"
+                    alt="f99ba1b6-994d-4a50-b3a2-87c0729f2cfa.png"></td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>ISO 27001:2013</td>
+            <td style='text-align:right'><img src="images/07e30645-a3fc-4d80-b962-60cb89383fcb.png"
+                    alt="07e30645-a3fc-4d80-b962-60cb89383fcb.png"></td>
+            <td style='text-align:right'><img src="images/c7a70e17-1c79-4d88-aa08-5c70f62f520f.png"
+                    alt="c7a70e17-1c79-4d88-aa08-5c70f62f520f.png"></td>
+            <td style='text-align:right'><img src="images/77627c45-7f99-49b9-9ac5-5ffd3a92bd2d.png"
+                    alt="77627c45-7f99-49b9-9ac5-5ffd3a92bd2d.png"></td>
+            <td style='text-align:right'><img src="images/497cfc6e-2733-4182-8f7c-eaa1ac354993.png"
+                    alt="497cfc6e-2733-4182-8f7c-eaa1ac354993.png"></td>
+            <td style='text-align:right'><img src="images/4bfec1db-ce55-41ef-b530-8357332c7bce.png"
+                    alt="4bfec1db-ce55-41ef-b530-8357332c7bce.png"></td>
+            <td style='text-align:right'><img src="images/287486fb-0098-43e8-b29a-a779af04de4b.png"
+                    alt="287486fb-0098-43e8-b29a-a779af04de4b.png"></td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Azure CIS 1.4.0</td>
+            <td style='text-align:right'><img src="images/91422f33-51bf-43e1-9689-ef5e4aa7f043.png"
+                    alt="91422f33-51bf-43e1-9689-ef5e4aa7f043.png"></td>
+            <td style='text-align:right'><img src="images/4f4d0cec-d95c-4b9b-b50c-df86e3561837.png"
+                    alt="4f4d0cec-d95c-4b9b-b50c-df86e3561837.png"></td>
+            <td style='text-align:right'><img src="images/54fb4927-db6f-41e3-a885-c713b9dc9395.png"
+                    alt="54fb4927-db6f-41e3-a885-c713b9dc9395.png"></td>
+            <td style='text-align:right'><img src="images/deca1951-d4a1-490f-8e7c-1ec488182dbc.png"
+                    alt="deca1951-d4a1-490f-8e7c-1ec488182dbc.png"></td>
+            <td style='text-align:right'><img src="images/151cc1f4-5a43-4e5e-9d55-baa7ab829305.png"
+                    alt="151cc1f4-5a43-4e5e-9d55-baa7ab829305.png"></td>
+            <td style='text-align:right'><img src="images/afbe7357-752a-402e-bcef-a92365111bcf.png"
+                    alt="afbe7357-752a-402e-bcef-a92365111bcf.png"></td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>SOC 2 Type 2</td>
+            <td style='text-align:right'><img src="images/bef54a93-1977-4a31-ac24-0ae8f9c1444f.png"
+                    alt="bef54a93-1977-4a31-ac24-0ae8f9c1444f.png"></td>
+            <td style='text-align:right'><img src="images/4fbbe0f7-2ee7-4b10-8153-ece78fbaf0be.png"
+                    alt="4fbbe0f7-2ee7-4b10-8153-ece78fbaf0be.png"></td>
+            <td style='text-align:right'><img src="images/65ea6730-5fb4-409a-8cc9-dfeef9e1b4f2.png"
+                    alt="65ea6730-5fb4-409a-8cc9-dfeef9e1b4f2.png"></td>
+            <td style='text-align:right'><img src="images/2182ebd0-e5e1-4946-86b0-d1edda089ab1.png"
+                    alt="2182ebd0-e5e1-4946-86b0-d1edda089ab1.png"></td>
+            <td style='text-align:right'><img src="images/8878d5a9-52e2-4794-ba60-b9043a10e90f.png"
+                    alt="8878d5a9-52e2-4794-ba60-b9043a10e90f.png"></td>
+            <td style='text-align:right'><img src="images/b731ba89-ad9e-495d-9f67-923d4447cb79.png"
+                    alt="b731ba89-ad9e-495d-9f67-923d4447cb79.png"></td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='4'>FTHub Sandbox</td>
+            <td style='text-align:left'>Secure Score</td>
+            <td style='text-align:right'><img src="images/57d1f86d-4dac-49cd-95a0-dbb25c8f2858.png"
+                    alt="57d1f86d-4dac-49cd-95a0-dbb25c8f2858.png"></td>
+            <td style='text-align:right'><img src="images/d045fbf1-b0f6-4e3b-9da0-9767bd51bd56.png"
+                    alt="d045fbf1-b0f6-4e3b-9da0-9767bd51bd56.png"></td>
+            <td style='text-align:right'><img src="images/590db9da-2d8e-431e-81aa-d7d3b7d7599f.png"
+                    alt="590db9da-2d8e-431e-81aa-d7d3b7d7599f.png"></td>
+            <td style='text-align:right'><img src="images/84908fa9-995f-4956-a976-93b0ed566925.png"
+                    alt="84908fa9-995f-4956-a976-93b0ed566925.png"></td>
+            <td style='text-align:right'><img src="images/5b30434c-184a-42bb-b43f-8dc90bdf399a.png"
+                    alt="5b30434c-184a-42bb-b43f-8dc90bdf399a.png"></td>
+            <td style='text-align:right'><img src="images/79d87962-06ab-4fa7-b0c3-6ca20f91300f.png"
+                    alt="79d87962-06ab-4fa7-b0c3-6ca20f91300f.png"></td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>ISO 27001:2013</td>
+            <td style='text-align:right'><img src="images/ef5efbf8-9a08-4be3-86e5-190c8c77b818.png"
+                    alt="ef5efbf8-9a08-4be3-86e5-190c8c77b818.png"></td>
+            <td style='text-align:right'><img src="images/c711f6e0-539b-4a77-b85d-52035914fbfb.png"
+                    alt="c711f6e0-539b-4a77-b85d-52035914fbfb.png"></td>
+            <td style='text-align:right'><img src="images/55729564-ae40-4d6a-a43f-7763d200cba3.png"
+                    alt="55729564-ae40-4d6a-a43f-7763d200cba3.png"></td>
+            <td style='text-align:right'><img src="images/364c971d-c764-434d-a36e-ff29377c155d.png"
+                    alt="364c971d-c764-434d-a36e-ff29377c155d.png"></td>
+            <td style='text-align:right'><img src="images/b31c15b0-9d4f-45a7-a674-4c7de23cfc5a.png"
+                    alt="b31c15b0-9d4f-45a7-a674-4c7de23cfc5a.png"></td>
+            <td style='text-align:right'><img src="images/cc0bd2c6-168f-408a-a087-9ece48a51fcd.png"
+                    alt="cc0bd2c6-168f-408a-a087-9ece48a51fcd.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Azure CIS 1.4.0</td>
+            <td style='text-align:right'><img src="images/3d95d9fb-0058-44be-9a6a-b365623f6aea.png"
+                    alt="3d95d9fb-0058-44be-9a6a-b365623f6aea.png"></td>
+            <td style='text-align:right'><img src="images/d0bc6518-3f4a-46fd-85ae-b701deebb75d.png"
+                    alt="d0bc6518-3f4a-46fd-85ae-b701deebb75d.png"></td>
+            <td style='text-align:right'><img src="images/2cd82016-f06e-494e-b85b-890c78e92242.png"
+                    alt="2cd82016-f06e-494e-b85b-890c78e92242.png"></td>
+            <td style='text-align:right'><img src="images/d7099c65-d6a8-48b5-ae25-d0eeaca85dce.png"
+                    alt="d7099c65-d6a8-48b5-ae25-d0eeaca85dce.png"></td>
+            <td style='text-align:right'><img src="images/9ee22fa0-dd72-4654-935d-ea177c03c551.png"
+                    alt="9ee22fa0-dd72-4654-935d-ea177c03c551.png"></td>
+            <td style='text-align:right'><img src="images/9b767749-9ff8-4e58-a50c-b5c3b54a0589.png"
+                    alt="9b767749-9ff8-4e58-a50c-b5c3b54a0589.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>SOC 2 Type 2</td>
+            <td style='text-align:right'><img src="images/22bd5db8-b561-4ac8-b5d0-1b839ca50420.png"
+                    alt="22bd5db8-b561-4ac8-b5d0-1b839ca50420.png"></td>
+            <td style='text-align:right'><img src="images/fdfbea60-e71e-46d6-b218-2274abfbb280.png"
+                    alt="fdfbea60-e71e-46d6-b218-2274abfbb280.png"></td>
+            <td style='text-align:right'><img src="images/e98c0456-73ef-4c0a-ad60-04e85f37eea3.png"
+                    alt="e98c0456-73ef-4c0a-ad60-04e85f37eea3.png"></td>
+            <td style='text-align:right'><img src="images/6d69645e-cd16-42ac-86b4-2ff95d56b58e.png"
+                    alt="6d69645e-cd16-42ac-86b4-2ff95d56b58e.png"></td>
+            <td style='text-align:right'><img src="images/a398a01e-95a6-4cd2-aa6b-55eb4f0836b8.png"
+                    alt="a398a01e-95a6-4cd2-aa6b-55eb4f0836b8.png"></td>
+            <td style='text-align:right'><img src="images/2df87dd3-0654-4910-a917-6d8d7ea63ea5.png"
+                    alt="2df87dd3-0654-4910-a917-6d8d7ea63ea5.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='4'>FTHub Demo</td>
+            <td style='text-align:left'>Secure Score</td>
+            <td style='text-align:right'><img src="images/cd3ffc33-53ba-4aa3-bb99-34fc078c8877.png"
+                    alt="cd3ffc33-53ba-4aa3-bb99-34fc078c8877.png"></td>
+            <td style='text-align:right'><img src="images/2a66f2ed-7e80-413f-b728-bd5fe31145fb.png"
+                    alt="2a66f2ed-7e80-413f-b728-bd5fe31145fb.png"></td>
+            <td style='text-align:right'><img src="images/701dd26a-a30f-484c-887a-5b6098820f9a.png"
+                    alt="701dd26a-a30f-484c-887a-5b6098820f9a.png"></td>
+            <td style='text-align:right'><img src="images/a3149cf9-7d98-46d5-aaf3-9df811381e92.png"
+                    alt="a3149cf9-7d98-46d5-aaf3-9df811381e92.png"></td>
+            <td style='text-align:right'><img src="images/3110f826-6260-427d-8080-eafabfecd359.png"
+                    alt="3110f826-6260-427d-8080-eafabfecd359.png"></td>
+            <td style='text-align:right'><img src="images/fac8ffd1-1adb-4a62-9be6-b2bbef374d51.png"
+                    alt="fac8ffd1-1adb-4a62-9be6-b2bbef374d51.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>ISO 27001:2013</td>
+            <td style='text-align:right'><img src="images/4c082065-138b-4bb2-8fe8-cd7c7c928c2f.png"
+                    alt="4c082065-138b-4bb2-8fe8-cd7c7c928c2f.png"></td>
+            <td style='text-align:right'><img src="images/3ff022e4-4db4-4061-bc66-5eff1f42064d.png"
+                    alt="3ff022e4-4db4-4061-bc66-5eff1f42064d.png"></td>
+            <td style='text-align:right'><img src="images/8f514a54-979e-44b8-8ac4-2d35ec545491.png"
+                    alt="8f514a54-979e-44b8-8ac4-2d35ec545491.png"></td>
+            <td style='text-align:right'><img src="images/3901a3e5-65b8-447d-b11d-2d660de20f7b.png"
+                    alt="3901a3e5-65b8-447d-b11d-2d660de20f7b.png"></td>
+            <td style='text-align:right'><img src="images/b3c58ded-eed6-4fac-bb96-22bf097b3004.png"
+                    alt="b3c58ded-eed6-4fac-bb96-22bf097b3004.png"></td>
+            <td style='text-align:right'><img src="images/decfe6fb-0d09-495c-a610-a55bcdd961b6.png"
+                    alt="decfe6fb-0d09-495c-a610-a55bcdd961b6.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Azure CIS 1.4.0</td>
+            <td style='text-align:right'><img src="images/e03b49e8-e2c3-44d2-b29c-18bdba473c1d.png"
+                    alt="e03b49e8-e2c3-44d2-b29c-18bdba473c1d.png"></td>
+            <td style='text-align:right'><img src="images/798d6371-cf88-416c-993e-5959bf4ed33e.png"
+                    alt="798d6371-cf88-416c-993e-5959bf4ed33e.png"></td>
+            <td style='text-align:right'><img src="images/7dc29919-e53d-4f80-9e20-2797bc7c45fa.png"
+                    alt="7dc29919-e53d-4f80-9e20-2797bc7c45fa.png"></td>
+            <td style='text-align:right'><img src="images/6876dde6-977c-4bc3-a8fd-51e5f21f9a15.png"
+                    alt="6876dde6-977c-4bc3-a8fd-51e5f21f9a15.png"></td>
+            <td style='text-align:right'><img src="images/63c7b2f5-bd81-4a55-8e01-8c691f75a3c4.png"
+                    alt="63c7b2f5-bd81-4a55-8e01-8c691f75a3c4.png"></td>
+            <td style='text-align:right'><img src="images/8ff66b1e-2eb1-4dc0-9359-187ac14ffcaf.png"
+                    alt="8ff66b1e-2eb1-4dc0-9359-187ac14ffcaf.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>SOC 2 Type 2</td>
+            <td style='text-align:right'><img src="images/ea6ca233-a2d6-4311-b699-218bcd4e3730.png"
+                    alt="ea6ca233-a2d6-4311-b699-218bcd4e3730.png"></td>
+            <td style='text-align:right'><img src="images/01cbf5cb-3fda-420e-bed7-12e074e6f1b0.png"
+                    alt="01cbf5cb-3fda-420e-bed7-12e074e6f1b0.png"></td>
+            <td style='text-align:right'><img src="images/31173f28-21a5-47f9-b3e4-16d238246221.png"
+                    alt="31173f28-21a5-47f9-b3e4-16d238246221.png"></td>
+            <td style='text-align:right'><img src="images/4f418cc7-b3f9-45af-bb8b-edd4c774edcc.png"
+                    alt="4f418cc7-b3f9-45af-bb8b-edd4c774edcc.png"></td>
+            <td style='text-align:right'><img src="images/c9e3d895-f2ad-4e10-acc7-5696cdba69b7.png"
+                    alt="c9e3d895-f2ad-4e10-acc7-5696cdba69b7.png"></td>
+            <td style='text-align:right'><img src="images/bd40c386-c607-4d58-a18e-9140199fd2fc.png"
+                    alt="bd40c386-c607-4d58-a18e-9140199fd2fc.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='4'>FTHub PreProduction</td>
+            <td style='text-align:left'>Secure Score</td>
+            <td style='text-align:right'><img src="images/24f49f76-659b-41e6-be40-7db3cc6f9143.png"
+                    alt="24f49f76-659b-41e6-be40-7db3cc6f9143.png"></td>
+            <td style='text-align:right'><img src="images/796b8870-f287-44f9-bdb3-d47716e75e33.png"
+                    alt="796b8870-f287-44f9-bdb3-d47716e75e33.png"></td>
+            <td style='text-align:right'><img src="images/a862c21c-14fc-4eae-8d29-e35228b52c72.png"
+                    alt="a862c21c-14fc-4eae-8d29-e35228b52c72.png"></td>
+            <td style='text-align:right'><img src="images/31fea948-2a18-4452-9b72-e70813da10a8.png"
+                    alt="31fea948-2a18-4452-9b72-e70813da10a8.png"></td>
+            <td style='text-align:right'><img src="images/21eadf84-a62f-4e4e-9c6e-6fffab14037d.png"
+                    alt="21eadf84-a62f-4e4e-9c6e-6fffab14037d.png"></td>
+            <td style='text-align:right'><img src="images/599ce7bb-c9c8-4802-9f43-6fd1f95d5494.png"
+                    alt="599ce7bb-c9c8-4802-9f43-6fd1f95d5494.png"></td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>ISO 27001:2013</td>
+            <td style='text-align:right'><img src="images/8b67f28c-cdd5-4ff1-8355-1ef60f1163b6.png"
+                    alt="8b67f28c-cdd5-4ff1-8355-1ef60f1163b6.png"></td>
+            <td style='text-align:right'><img src="images/8631903a-b73f-45cc-a083-83750950bbd0.png"
+                    alt="8631903a-b73f-45cc-a083-83750950bbd0.png"></td>
+            <td style='text-align:right'><img src="images/690e0a76-7dc5-4369-8d7c-3f4c5205ae1d.png"
+                    alt="690e0a76-7dc5-4369-8d7c-3f4c5205ae1d.png"></td>
+            <td style='text-align:right'><img src="images/c7fb6a7a-6cb6-4280-ad06-585d235c8672.png"
+                    alt="c7fb6a7a-6cb6-4280-ad06-585d235c8672.png"></td>
+            <td style='text-align:right'><img src="images/79ffac1c-4d79-43cb-9cbb-abdae804c6d0.png"
+                    alt="79ffac1c-4d79-43cb-9cbb-abdae804c6d0.png"></td>
+            <td style='text-align:right'><img src="images/bc973514-8536-4bf4-a60d-fcad9cea60b8.png"
+                    alt="bc973514-8536-4bf4-a60d-fcad9cea60b8.png"></td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Azure CIS 1.4.0</td>
+            <td style='text-align:right'><img src="images/66e01c5e-5a65-40a5-86e1-05ce661a9a94.png"
+                    alt="66e01c5e-5a65-40a5-86e1-05ce661a9a94.png"></td>
+            <td style='text-align:right'><img src="images/8f944eed-6145-4dec-86f3-7ef7c2198de8.png"
+                    alt="8f944eed-6145-4dec-86f3-7ef7c2198de8.png"></td>
+            <td style='text-align:right'><img src="images/c9d9304c-6334-49f9-afc5-e02b6aa132c5.png"
+                    alt="c9d9304c-6334-49f9-afc5-e02b6aa132c5.png"></td>
+            <td style='text-align:right'><img src="images/2021af69-09d3-4caf-a086-d0c69f26e22c.png"
+                    alt="2021af69-09d3-4caf-a086-d0c69f26e22c.png"></td>
+            <td style='text-align:right'><img src="images/de7e2324-986c-495f-8ef2-8e1c8313e2db.png"
+                    alt="de7e2324-986c-495f-8ef2-8e1c8313e2db.png"></td>
+            <td style='text-align:right'><img src="images/8febda2b-db15-4e9b-83dd-642df137184e.png"
+                    alt="8febda2b-db15-4e9b-83dd-642df137184e.png"></td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>SOC 2 Type 2</td>
+            <td style='text-align:right'><img src="images/0f0f3c00-3c45-4116-ac30-3ec301429b0d.png"
+                    alt="0f0f3c00-3c45-4116-ac30-3ec301429b0d.png"></td>
+            <td style='text-align:right'><img src="images/84b4a17c-22e8-4cf8-9152-e93af9f9d965.png"
+                    alt="84b4a17c-22e8-4cf8-9152-e93af9f9d965.png"></td>
+            <td style='text-align:right'><img src="images/6642a93f-0fed-4fc6-95aa-f70c0f4ae53c.png"
+                    alt="6642a93f-0fed-4fc6-95aa-f70c0f4ae53c.png"></td>
+            <td style='text-align:right'><img src="images/72786019-88b5-4f90-ad09-a3d49b9dd041.png"
+                    alt="72786019-88b5-4f90-ad09-a3d49b9dd041.png"></td>
+            <td style='text-align:right'><img src="images/01abaafc-7dba-4680-9e0f-f8bffeff65ae.png"
+                    alt="01abaafc-7dba-4680-9e0f-f8bffeff65ae.png"></td>
+            <td style='text-align:right'><img src="images/7d6f6b76-275b-4d5c-b662-7288806a65fc.png"
+                    alt="7d6f6b76-275b-4d5c-b662-7288806a65fc.png"></td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+    </table>
+    <sub>Azure Defender security score as reported by Azure API.</sub>
+    <br>
+    <p><small>Compliance policies: </small><img src="images/9ee1d4dd-4f35-4093-8ada-7d718758fbc0.png"
+            alt="9ee1d4dd-4f35-4093-8ada-7d718758fbc0.png"><sup><small> (Azure automated assesments only)</small></sup>
+    </p>
+
+    <h2>AWS Secure Score</h2>
+    <table>
+        <thead>
+            <th style='text-align:left'>Subscription</th>
+            <th style='text-align:right'>Jan</th>
+            <th style='text-align:right'>Feb</th>
+            <th style='text-align:right'>Mar</th>
+            <th style='text-align:right'>Apr</th>
+            <th style='text-align:right'>May</th>
+            <th style='text-align:right'>Jun</th>
+            <th style='text-align:center'>Trend</th>
+        </thead>
+        <tr>
+            <td style='text-align:left'>FT Twin Studio Production</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>71.23</td>
+            <td style='text-align:right'>71.26</td>
+            <td style='text-align:right'>50.7</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Twin Studio Non-Production</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>51.72</td>
+            <td style='text-align:right'>55.62</td>
+            <td style='text-align:right'>58.59</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Twin Studio Sandbox</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>45.51</td>
+            <td style='text-align:right'>43.2</td>
+            <td style='text-align:right'>51.97</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Twin Studio Demo</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>20.67</td>
+            <td style='text-align:right'>20.7</td>
+            <td style='text-align:right'>32.88</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>FT Twin Studio Pre-Prod</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>31.54</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+    </table>
+    <sub></sub>
+
+    <h2>Production Container Images Vulnerabilities</h2>
+    <table>
+        <thead>
+            <th style='text-align:left'>Service</th>
+            <th style='text-align:left'>Impact</th>
+            <th style='text-align:right'>Jan</th>
+            <th style='text-align:right'>Feb</th>
+            <th style='text-align:right'>Mar</th>
+            <th style='text-align:right'>Apr</th>
+            <th style='text-align:right'>May</th>
+            <th style='text-align:right'>Jun</th>
+            <th style='text-align:center'> Trend </th>
+        </thead>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Edge Manager</td>
+            <td style='text-align:left'>Critical</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>8</small></td>
+            <td style='text-align:right'><small>8</small></td>
+            <td style='text-align:right'><small>9</small></td>
+            <td style='text-align:right'><small>9</small></td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>High</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>47</small></td>
+            <td style='text-align:right'><small>47</small></td>
+            <td style='text-align:right'><small>49</small></td>
+            <td style='text-align:right'><small>50</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Medium</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>55</small></td>
+            <td style='text-align:right'><small>44</small></td>
+            <td style='text-align:right'><small>49</small></td>
+            <td style='text-align:right'><small>52</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>Testing</td>
+            <td style='text-align:left'>Critical</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>9</small></td>
+            <td style='text-align:right'><small>12</small></td>
+            <td style='text-align:right'><small>10</small></td>
+            <td style='text-align:right'><small>16</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>High</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>23</small></td>
+            <td style='text-align:right'><small>37</small></td>
+            <td style='text-align:right'><small>35</small></td>
+            <td style='text-align:right'><small>84</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Medium</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>25</small></td>
+            <td style='text-align:right'><small>37</small></td>
+            <td style='text-align:right'><small>34</small></td>
+            <td style='text-align:right'><small>52</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Vault</td>
+            <td style='text-align:left'>Critical</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>4</small></td>
+            <td style='text-align:right'><small>4</small></td>
+            <td style='text-align:right'><small>4</small></td>
+            <td style='text-align:right'><small>5</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>High</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>21</small></td>
+            <td style='text-align:right'><small>20</small></td>
+            <td style='text-align:right'><small>21</small></td>
+            <td style='text-align:right'><small>24</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Medium</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>58</small></td>
+            <td style='text-align:right'><small>45</small></td>
+            <td style='text-align:right'><small>46</small></td>
+            <td style='text-align:right'><small>53</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Common</td>
+            <td style='text-align:left'>Critical</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>40</small></td>
+            <td style='text-align:right'><small>2</small></td>
+            <td style='text-align:right'><small>2</small></td>
+            <td style='text-align:right'><small>2</small></td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>High</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>158</small></td>
+            <td style='text-align:right'><small>18</small></td>
+            <td style='text-align:right'><small>15</small></td>
+            <td style='text-align:right'><small>18</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Medium</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>187</small></td>
+            <td style='text-align:right'><small>34</small></td>
+            <td style='text-align:right'><small>35</small></td>
+            <td style='text-align:right'><small>49</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT TwinStudio</td>
+            <td style='text-align:left'>Critical</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>2</small></td>
+            <td style='text-align:right'><small>2</small></td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>High</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>10</small></td>
+            <td style='text-align:right'><small>11</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Medium</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>12</small></td>
+            <td style='text-align:right'><small>15</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Optix</td>
+            <td style='text-align:left'>Critical</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>1</small></td>
+            <td style='text-align:right'><small>1</small></td>
+            <td style='text-align:right'><small>1</small></td>
+            <td style='text-align:right'><small>1</small></td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>High</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>15</small></td>
+            <td style='text-align:right'><small>15</small></td>
+            <td style='text-align:right'><small>13</small></td>
+            <td style='text-align:right'><small>13</small></td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Medium</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>41</small></td>
+            <td style='text-align:right'><small>37</small></td>
+            <td style='text-align:right'><small>37</small></td>
+            <td style='text-align:right'><small>53</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT DataMosaix</td>
+            <td style='text-align:left'>Critical</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>4</small></td>
+            <td style='text-align:right'><small>4</small></td>
+            <td style='text-align:right'><small>0</small></td>
+            <td style='text-align:right'><small>0</small></td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>High</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>58</small></td>
+            <td style='text-align:right'><small>71</small></td>
+            <td style='text-align:right'><small>25</small></td>
+            <td style='text-align:right'><small>28</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Medium</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>140</small></td>
+            <td style='text-align:right'><small>167</small></td>
+            <td style='text-align:right'><small>114</small></td>
+            <td style='text-align:right'><small>122</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left' rowspan='3'>FT Remote Access</td>
+            <td style='text-align:left'>Critical</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>0</small></td>
+            <td style='text-align:right'><small>0</small></td>
+            <td style='text-align:right'><small>0</small></td>
+            <td style='text-align:right'><small>0</small></td>
+            <td style='text-align:center'>&#8596</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>High</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>16</small></td>
+            <td style='text-align:right'><small>12</small></td>
+            <td style='text-align:right'><small>10</small></td>
+            <td style='text-align:right'><small>5</small></td>
+            <td style='text-align:center;color:green'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Medium</td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>N/A</small></td>
+            <td style='text-align:right'><small>77</small></td>
+            <td style='text-align:right'><small>43</small></td>
+            <td style='text-align:right'><small>49</small></td>
+            <td style='text-align:right'><small>64</small></td>
+            <td style='text-align:center;color:red'>&#8593</td>
+        </tr>
+    </table>
+    <sub>Container image vulnerabilities as reported by PrismaCloud</sub>
+    <hr>
+
+    <h2>Production Synthetic Tests</h2>
+    <table>
+        <thead>
+            <th style='text-align:left'>Test</th>
+            <th style='text-align:right'>Jan</th>
+            <th style='text-align:right'>Feb</th>
+            <th style='text-align:right'>Mar</th>
+            <th style='text-align:right'>Apr</th>
+            <th style='text-align:right'>May</th>
+            <th style='text-align:right'>Jun</th>
+            <th style='text-align:center'>Trend</th>
+        </thead>
+        <tr>
+            <td style='text-align:left'>Launch Fiix service</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>99.502</td>
+            <td style='text-align:right'>98.892</td>
+            <td style='text-align:right'>97.721</td>
+            <td style='text-align:right'>94.199</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Filter Design Hub services</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>99.005</td>
+            <td style='text-align:right'>99.214</td>
+            <td style='text-align:right'>99.154</td>
+            <td style='text-align:right'>99.078</td>
+            <td style='text-align:right'>98.525</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Credits consumption</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>88.462</td>
+            <td style='text-align:right'>85.18</td>
+            <td style='text-align:right'>89.497</td>
+            <td style='text-align:right'>93.986</td>
+            <td style='text-align:right'>95.117</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Launch FTRA trial service</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>99.502</td>
+            <td style='text-align:right'>98.964</td>
+            <td style='text-align:right'>97.992</td>
+            <td style='text-align:right'>97.717</td>
+            <td style='text-align:right'>98.74</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Launch Optix service</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>98.507</td>
+            <td style='text-align:right'>98.892</td>
+            <td style='text-align:right'>92.893</td>
+            <td style='text-align:right'>92.288</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Launch vault into Home page</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>99.502</td>
+            <td style='text-align:right'>99.214</td>
+            <td style='text-align:right'>98.339</td>
+            <td style='text-align:right'>98.416</td>
+            <td style='text-align:right'>99.198</td>
+            <td style='text-align:center;color:green'>&#8593</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Login SAML flow</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>99.5</td>
+            <td style='text-align:right'>97.414</td>
+            <td style='text-align:right'>96.85</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+        <tr>
+            <td style='text-align:left'>Logout SAML flow</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>N/A</td>
+            <td style='text-align:right'>98.844</td>
+            <td style='text-align:right'>97.689</td>
+            <td style='text-align:right'>97.384</td>
+            <td style='text-align:right'>94.492</td>
+            <td style='text-align:center;color:red'>&#8595</td>
+        </tr>
+    </table>
+    <sub></sub>
+    <br>
+    <hr>
+
+    <h3></h3>
+    <p style="text-align:center;">Rockwell Automation Confidental</p>
+    <p style="text-align:center;font-size:11px">Report Generated 06/21/2024, 09:11:40 UTC</p>
+    <p style="text-align:center;font-size:11px"><a
+            href="https://rockwellautomation.atlassian.net/wiki/spaces/POMDSO/pages/3688170438/DevSecOps+Metrics+-+Frequently+Asked+Questions">Metrics
+            FAQ</a></p>
+    <br>
+</body>
+
+</html>
