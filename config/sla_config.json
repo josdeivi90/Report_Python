@@ -1,0 +1,16 @@
+{
+    "availability_sla": {
+        "value": 99.00000
+    },
+    "performance_sla": {
+        "MTTA": 5,
+        "MTTR": 60,
+        "MTBF": 168
+    },
+    "cost_sla": {
+        "reduction": 0.5
+    },
+    "secure_sla": {
+        "value": 85.0
+    }
+}

@@ -1,0 +1,80 @@
+# This workflow is run once a month to finalize previous month's metric values
+
+name: "Update Previous Month Metrics Data"
+
+# Controls when the workflow will run
+on:
+  # runs on the first and 2nd of the month at 3am UTC
+  schedule:
+    - cron: 0 3 1-2 * * 
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  generate:
+    # The type of runner that the job will run on
+    runs-on: self-hosted
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: check out repository
+        uses: actions/checkout@v4
+        with: 
+          fetch-depth: 0
+          token: ${{ secrets.READ_GITHUB_ACTIONS_PAT }}
+
+      - name: Get current time
+        uses: josStorer/get-current-time@v2.1.2
+        id: current-time
+
+      # Runs a single command using the runners shell
+      - name: Run python script
+        env:
+          YEAR: "${{ steps.current-time.outputs.year }}"
+          MONTH: "${{ steps.current-time.outputs.month }}"
+          PAGERDUTY_API_KEY: ${{ secrets.PAGERDUTY_API_KEY }}
+          DEMO_JSON: ${{ secrets.AZ2P_0426_DEPLOYMENT_JSON }}
+          SANDBOX_JSON: ${{ secrets.AZ2P_0083_DEPLOYMENT_JSON }}
+          PREPROD_JSON: ${{ secrets.AZ2P_0464_DEPLOYMENT_JSON }}
+          NONPROD_JSON: ${{ secrets.AZ2P_0117_DEPLOYMENT_JSON }}
+          PROD_JSON: ${{ secrets.AZ2P_0118_DEPLOYMENT_JSON }}
+          AZURE_TENANT_ID: ${{ secrets.AZURE_ROCKWELL_AUTOMATION_TENANT_ID }}
+          GAINSIGHT_API_KEY: ${{ secrets.GAINSIGHT_API_KEY }}
+          HARNESS_API_TOKEN: ${{ secrets.HARNESS_API_TOKEN }}
+          PRISMACLOUD_ACCESS_KEY: ${{ secrets.PRISMACLOUD_ACCESS_KEY }}
+          PRISMACLOUD_SECRET_KEY: ${{ secrets.PRISMACLOUD_SECRET_KEY }}
+        run: |
+          if [ $MONTH -eq 1 ] ; then
+            python3 ./python/monthly_metrics.py -m 12 -y $(($YEAR-1))
+          else
+            python3 ./python/monthly_metrics.py -m $(($MONTH-1)) -y $YEAR
+          fi
+
+      # Runs a set of commands using the runners shell
+      - name: Save output
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: './data/json_data.json'
+
+          author_name: cironera
+
+          # The email of the user that will be displayed as the author of the commit
+          # Default: author of the commit that triggered the run
+          author_email: richard.cironejr@rockwellautomation.com
+
+          # The message for the commit
+          # Default: 'Commit from GitHub Actions'
+          message: 'Automatic commit of .json metric data'
+          
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        if: github.event_name != 'pull_request'
+
+      - name: Publish artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: metrics
+          path: ./data/json_data.json
+        if: github.event_name == 'pull_request'

@@ -1,0 +1,83 @@
+{
+    "harness_application_costs": [
+        {
+            "account_id" : "n75tTkt5Rse1N1wOhvUOUg",
+            "perspectives": [
+                {
+                    "name" : "FT Vault",
+                    "ids": ["yfqURKvAR1e7-odMy6Js2g"]
+                },
+                {
+                    "name" : "FT Remote Access",
+                    "ids": ["0Ciml4-IQkSG9XB7mogO3A"]
+                },
+                {
+                    "name" : "FT Common Services",
+                    "ids": ["DIQvlkYISs2UIeV1gzsAiA"]
+                },
+                {
+                    "name" : "FTHub Digital Engineering",
+                    "ids": ["BHgiKYW5TBCIayyCCjJQlQ"]
+                },
+                {
+                    "name" : "FTHub FTEGaaS",
+                    "ids": ["opFREUjUQfOALsuV9JrMLg"]
+                },
+                {
+                    "name" : "FT Optix",
+                    "ids": ["18spIY_BQpKmka_1soLHAA"]
+                },
+                {
+                    "name" : "FTHub Shared Services",
+                    "ids": ["mmtoDAD0RR-dlkLKRcndZA"]
+                },
+                {
+                    "name" : "FTHub Ops Bootstrap",
+                    "ids": ["ig4ulgM2QYyU-VIH6WEG8w"]
+                },
+                {
+                    "name" : "FTHub Help Desk",
+                    "ids": ["_U1r6yo4RVC2yxXiGgQBRQ"]
+                }
+            ]
+        }
+    ],
+    "harness_service_costs": [
+        {
+            "account_id" : "n75tTkt5Rse1N1wOhvUOUg",
+            "perspectives": [
+                {
+                    "name" : "All Azure",
+                    "ids": ["zSORC2T1SCW6ryNoncsENg"]
+                },
+                {
+                    "name" : "All AWS",
+                    "ids": ["2FM_9exYT0SBwBAAikfuDg"]
+                },
+                {
+                    "name" : "All Cluster",
+                    "ids": ["f2_0fKjRR2iCw8N6kryU8g"]
+                }
+            ]
+        }
+    ],
+    "harness_misclassified": [
+        {
+            "account_id" : "n75tTkt5Rse1N1wOhvUOUg",
+            "perspectives": [
+                {
+                    "name" : "FTHub Unaccounted - Azure",
+                    "ids": ["jT_R3WamSuygFTpkeEsoEg"]
+                },
+                {
+                    "name" : "FTHub Unaccounted - AWS",
+                    "ids": ["P5niyRydQCW1Hw5WJdBvwQ"]
+                },
+                {
+                    "name" : "FTHub Unaccounted - Cluster",
+                    "ids": ["mf5x27itSnCOqsmPG2Ileg"]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,264 @@
+{
+    "pd_team_metrics": [
+        {
+            "id": "PG19RXC",
+            "name": "DevSecOps"
+        },
+        {
+            "id": "PZPH97Q",
+            "name": "FactoryTalk Design Hub"
+        },
+        {
+            "id": "PXAK4EH",
+            "name": "LeMans Common Services"
+        }
+    ],
+    "az_availability_metrics": [
+        {   
+            "name" : "frontdoor",
+            "provider": "Microsoft.OperationalInsights",
+            "general_query" : "AzureDiagnostics%20%7C%20where%20ResourceProvider%20==%20%22MICROSOFT.NETWORK%22%20and%20Category%20==%20%22FrontdoorAccessLog%22%20%20and%20",
+            "operation" : "%20%7C%20summarize%20AggregatedValue%20=%20round(100%20-%20(toreal(countif(httpStatusCode_s%20startswith%20%275%27%20or%20httpStatusCode_d%3E499)%20%2F%20toreal(count()))%20*%20100)%2C%203)",
+            "services" : [
+                {
+                    "name": "FT Vault",
+                    "filter": "(backendHostname_s%20startswith%20%22vault%22%20or%20(backendHostname_s%20startswith%20%22api-%22%20and%20not%20(backendHostname_s%20startswith%20%22api-notifications-%22))%20or%20requestUri_s%20startswith%20%22https://vault%22)"
+                },
+                {
+                    "name": "FT Remote Access",
+                    "filter": "backendHostname_s%20startswith%20%22ftra%22"
+                },
+                {
+                    "name": "FT Common",
+                    "filter": "(backendHostname_s%20startswith%20%22common%22%20or%20backendHostname_s%20startswith%20%22home%22%20%20or%20backendHostname_s%20startswith%20%22metrics%22%20%20or%20backendHostname_s%20startswith%20%22help%22%20or%20backendHostname_s%20startswith%20%22api-notifications%22)"
+                },
+                {
+                    "name": "FT Edge Manager",
+                    "filter": "backendHostname_s%20startswith%20%22eaas%22"
+                },
+                {
+                    "name": "FT Optix",
+                    "filter": "backendHostname_s%20startswith%20%22optix%22"
+                },
+                {
+                    "name": "FT DataMosaix",
+                    "filter": "(backendHostname_s+startswith+%22dm%22+or+backendHostname_s+startswith+%22datamosaix%22)"
+                }
+            ]
+        }
+    ],
+    "az_subscription_costs": [
+        {
+            "name" : "FTHub Production",
+            "short_name" : "prod",
+            "account_name" : "az2p-0118-LeMans_Production-AS-C71",
+            "id" : "f640c38c-4250-49fd-9a7b-0cf526feb98f",
+            "workspace_name" : "aks-workspace-8ea4b77c660e8a35",
+            "resourcegroup_name" : "rg-production-usermanaged-aks-eastus2",
+            "token_name" : "PROD_JSON",
+            "aws_account_name": "FT Twin Studio Production",
+            "aws_integration_rg": "rg-production-defender-aws-integration",
+            "aws_security_connector": "fthub_production"
+        },
+        {
+            "name" : "FTHub Non-Production (Development)",
+            "short_name" : "nonprod",
+            "account_name" : "az2p-0117-LeMans_Development-AS-C71",
+            "id" : "13960a1d-f5d0-4cc1-b82e-8bb9c42aa6fa",
+            "workspace_name" : "aks-workspace-c3ae4b9ab8513668",
+            "resourcegroup_name" : "rg-dev-usermanaged-aks-eastus2",
+            "token_name" : "NONPROD_JSON",
+            "aws_account_name": "FT Twin Studio Non-Production",
+            "aws_integration_rg": "rg-dev-defender-aws-integration",
+            "aws_security_connector": "fthub_nonprod"
+        },
+        {
+            "name" : "FTHub Sandbox",
+            "short_name" : "sandbox",
+            "account_name" : "az2p-0083-LeMans-HQTRS-016",
+            "id" : "a7ffc9c0-e376-4bb4-8f03-b13f138296d0",
+            "workspace_name" : "aks-workspace-a5686f66f04ee3ec",
+            "resourcegroup_name" : "rg-sandbox-usermanaged-aks-eastus2",
+            "token_name" : "SANDBOX_JSON",
+            "aws_account_name": "FT Twin Studio Sandbox",
+            "aws_integration_rg": "rg-sandbox-defender-aws-integration",
+            "aws_security_connector": "fthub_sandbox"
+        },
+        {
+            "name" : "FTHub Demo",
+            "short_name" : "demo",
+            "account_name" : "az2p-0426-LeManDemoEnvironment-SWC",
+            "id" : "61f02b0c-c05a-4ca2-a808-4d852c600dd7",
+            "workspace_name" : "aks-workspace-afcc034ec3d49524",
+            "resourcegroup_name" : "rg-qa-usermanaged-aks-eastus2",
+            "token_name" : "DEMO_JSON",
+            "aws_account_name": "FT Twin Studio Demo",
+            "aws_integration_rg": "rg-qa-defender-aws-integration",
+            "aws_security_connector": "fthub_demo"
+        },
+        {
+            "name" : "FTHub PreProduction",
+            "short_name" : "preprod",
+            "account_name" : "az2p-0464-LeMans_PreProd-SWC",
+            "id" : "2e3ded1d-af2e-4289-94e4-3a04fe0f67be",
+            "workspace_name" : "aks-workspace-c5e097cafa09dca0",
+            "resourcegroup_name" : "rg-preprod-usermanaged-aks-eastus2",
+            "token_name" : "PREPROD_JSON",
+            "aws_account_name": "FT Twin Studio Pre-Prod",
+            "aws_integration_rg": "rg-preprod-defender-aws-integration",
+            "aws_security_connector": "fthub_preprod"
+        }
+    ],
+    "aws_account_costs": [
+        {
+            "name" : "FT Twin Studio Production",
+            "account_name" : "aws_0003_fthub_digital_engineering_prod",
+            "number" : "605093515838"
+        },
+        {
+            "name" : "FT Twin Studio Non-Production",
+            "account_name" : "aws_0002_fthub_digital_engineering_nonprod",
+            "number" : "211297001365"
+        },
+        {
+            "name" : "FT Twin Studio Sandbox",
+            "account_name" : "aws_0001_fthub_digital_engineering_sandbox",
+            "number" : "123964965926"
+        },
+        {
+            "name" : "FT Optix",
+            "account_name" : "FT Optix",
+            "number" : "512332547043"
+        },
+        {
+            "name" : "FT Twin Studio Demo",
+            "account_name" : "aws_0009_fthub_digital_engineering_demo",
+            "number" : "410779156498"
+        },
+        {
+            "name" : "FT Twin Studio Preprod",
+            "account_name" : "aws_0017_lemans_preprod",
+            "number" : "224601056106"
+        }
+    ],
+    "gs_property_keys": [
+        {
+            "name" : "FTDH",
+            "production" : "AP-LHWBAABL4XZH-2-1",
+            "nonprod" : "AP-LHWBAABL4XZH-2-2",
+            "sandbox" : "AP-LHWBAABL4XZH-2-3",
+            "demo" : "AP-LHWBAABL4XZH-2-4",
+            "preprod" : "AP-LHWBAABL4XZH-2-4"
+        },
+        {
+            "name" : "FTRA_Optix",
+            "production" : "AP-8IOL2ZSLE5VB-2-1",
+            "nonprod" : "AP-8IOL2ZSLE5VB-2-2",
+            "sandbox" : "AP-8IOL2ZSLE5VB-2-3",
+            "demo" : "AP-8IOL2ZSLE5VB-2-4",
+            "preprod" : "AP-8IOL2ZSLE5VB-2-4"
+        },
+        {
+            "name" : "FTEdgeManager",
+            "production" : "AP-UCRJBSNBP37T-2-1",
+            "nonprod" : "AP-UCRJBSNBP37T-2-2",
+            "sandbox" : "AP-UCRJBSNBP37T-2-3",
+            "demo" : "AP-UCRJBSNBP37T-2-4",
+            "preprod" : "AP-UCRJBSNBP37T-2-4"
+        },
+        {
+            "name" : "FTDataMosaix",
+            "production" : "AP-UZTN9DH4ARUM-2-1",
+            "nonprod" : "AP-UZTN9DH4ARUM-2-2",
+            "sandbox" : "AP-UZTN9DH4ARUM-2-3",
+            "demo" : "AP-UZTN9DH4ARUM-2-4",
+            "preprod" : "AP-UZTN9DH4ARUM-2-4"
+        }
+    ],
+    "harness_application_costs": [
+        {
+            "account_id" : "n75tTkt5Rse1N1wOhvUOUg",
+            "perspectives": [
+                {
+                    "name" : "FT Vault",
+                    "ids": ["yfqURKvAR1e7-odMy6Js2g"]
+                },
+                {
+                    "name" : "FT Remote Access",
+                    "ids": ["0Ciml4-IQkSG9XB7mogO3A"]
+                },
+                {
+                    "name" : "FT Common Services",
+                    "ids": ["DIQvlkYISs2UIeV1gzsAiA"]
+                },
+                {
+                    "name" : "FT Twin Studio",
+                    "ids": ["BHgiKYW5TBCIayyCCjJQlQ"]
+                },
+                {
+                    "name" : "FT Optix",
+                    "ids": ["18spIY_BQpKmka_1soLHAA"]
+                },
+                {
+                    "name" : "FT DataMosaix",
+                    "ids"  : ["MSxyLpx3RXSDuvZF65iOwg"]
+                },
+                {
+                    "name" : "FT Edge Manager",
+                    "ids": ["b5aSFLyHSja0YdnHpzrmPw","opFREUjUQfOALsuV9JrMLg"]
+                },
+                {
+                    "name" : "FTHub Shared Services",
+                    "ids": ["mmtoDAD0RR-dlkLKRcndZA"]
+                },
+                {
+                    "name" : "FTHub Ops Bootstrap",
+                    "ids": ["ig4ulgM2QYyU-VIH6WEG8w"]
+                },
+                {
+                    "name" : "FTHub Help Desk",
+                    "ids": ["_U1r6yo4RVC2yxXiGgQBRQ"]
+                },
+                {
+                    "name" : "Others",
+                    "ids": ["bTlXZs0IRj6xABKPCMJrqw","AsBWDcrsRuC6Y2cAHOQPWw","Wabpt52CRpiIyHczLi9k2w","one0oAcxQmi6sx0CqwEK3w"]
+                }
+            ]
+        }
+    ],
+    "synthetic_test_metrics": [
+        {   
+            "provider": "Microsoft.OperationalInsights",
+            "general_query" : "Lemans_Production_CL%0D%0A%7C+where+event_s+contains+%27#{service}#%27%0D%0A%7C+project+event+%3D+parse_json%28event_s%29%0D%0A%7C+summarize+passrate+%3D+round%28toreal%28countif%28event.event.message.testResult+%3D%3D+%22passed%22%29+%2A+100%29+%2F+%28%28toreal%28countif%28+event.event.message.testResult%3D%3D+%22passed%22%29%29+%2B+countif%28event.event.message.testResult+%3D%3D+%22failed%22%29%29%29%2C+3%29",
+            "services" : [
+                {
+                    "name": "Launch Fiix service"
+                },
+                {
+                    "name": "Filter Design Hub services"
+                },
+                {
+                    "name": "Credits consumption"
+                },
+                {
+                    "name": "Launch FTRA trial service"
+                },
+                {
+                    "name": "Launch Optix service"
+                },
+                {
+                    "name": "Launch vault into Home page"
+                },
+                {
+                    "name": "Login SAML flow",
+                    "filter": "%27+and+event_s+contains+%27%40SyntheticProd"
+                },
+                {
+                    "name": "Logout SAML flow",
+                    "filter": "%27+and+event_s+contains+%27%40loginSAML" 
+                }
+            ]
+        }
+    ]
+}
+
