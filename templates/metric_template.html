@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>$currentyear$ Manticore Metrics</title>
+    <style>
+        :root {
+            --text: #000;
+            --bg: #fff;
+            --tabletext: #333;
+            --tableheadtext: #333;
+            --tableheadfill: #CCC;
+            --svgopacity: 1;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            height: 100vh;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text: #ccc;
+                --bg: #000;
+                --tabletext: #AAA;
+                --tableheadtext: #AAA;
+                --tableheadfill: #333;
+                --svgopacity: .75;
+            }
+        }
+
+        svg {
+            opacity: var(--svgopacity);
+        }
+
+        table {
+            color: var(--tabletext);
+            background: var(--bg);
+            border: 1px solid grey;
+            font-size: 12pt;
+            border-collapse: collapse;
+        }
+
+        table thead th,
+        table tfoot th {
+            color: var(--tableheadtext);
+            background: var(--tableheadfill);
+        }
+
+        table caption {
+            padding: .5em;
+        }
+
+        table th,
+        table td {
+            padding: .5em;
+            border: 1px solid lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>$currentyear$ Manticore Metrics</h1>
+    <p style="font-size:12px">Metrics Compiled $gen_dt$ UTC</p>
+    <hr>
+    <h2>Overall</h2>
+    $overall$
+    <br>
+    <hr>
+
+    <h2>Recent Accomplishments</h2>
+    <ul>
+    <li><sub style="font-size:17px"><b>Cloud Cost Reduction </b></sub> 
+    <sub style="font-size:17px">- Continued clearing of old and unused resources and tuning of logging resulted in around $40k/month savings in March since November '23 peak.</sub></li>
+    <li><sub style="font-size:17px"><b>Metrics Reporting </b></sub> 
+    <sub style="font-size:17px">- Synthetic Test pass rate and Prisma Cloud container image vulnerability scan results added to reports.</sub></li>
+    <li><sub style="font-size:17px"><b>Metrics Reporting </b></sub> 
+    <sub style="font-size:17px">- Metrics now delivered to an email distribution list. See <a href ="https://rockwellautomation.atlassian.net/wiki/spaces/POMDSO/pages/3688170438/DevSecOps+Metrics+-+Frequently+Asked+Questions">here</a> for how to add new recipients.</sub></li>
+    <li><sub style="font-size:17px"><b>Metrics Reporting </b></sub> 
+    <sub style="font-size:17px">- Extended html version of this report is now included in the email delivery as an attachment. Download the file and view in a browser.</sub></li>
+    </ul>
+    <hr>
+    <h2>Availability</h2>
+    $availability_table$
+    <sub>Measured as percentage of all web accesses that do not result in server error<br>
+    </sub>
+    <hr>
+    <h2>Incident Performance</h2>
+    $performance_table$
+    <sub>MTTA = Mean time to acknowledge, MTTR = Mean time to resolve, MTBF = Mean time between failures/incidents<br>
+        Includes high urgency incidents received by PagerDuty. MTTR and MTBF omit incidents judged as expected behavior</sub>
+    <hr>
+    <h2>Application Cost</h2>
+    $app_cost_table$
+    <sub>Generated from perspectives in Harness CCM. Current month is partial to date.<br>
+        Unidentified costs are currently $error$ of $stotal$ service total.<br>
+        <b>Note: Identified mis-tagged Twin Studio EC2 instances, and are in the process of re-tagging them</b></sub>
+    <br>
+    
+    <hr>
+    <h2>Cloud Provider Cost</h2>
+    $cloud_cost_table$
+    
+    <br>
+    <sub><b>For Azure provider: </b></sub>
+    <sub>Current subscription estimates are actual costs plus forecast from Azure API. Reduction over 6 months!</sub>
+    <br>
+    <sub><b>For AWS provider: </b></sub>
+    <sub>Data pulled from Harness. Reduction is trend over one month!</sub>
+
+    <hr>
+    <h2>Security and Compliance</h2>
+    $security_table$
+    <sub>Azure Defender security score as reported by Azure API.</sub>
+    <br>
+    <p><small>Compliance policies: </small>$compliance_sub$<sup><small> (Azure automated assesments only)</small></sup></p>
+    
+    <h2>AWS Secure Score</h2>
+    $aws_secure_score_table$
+    <sub></sub>
+    
+    <h2>Production Container Images Vulnerabilities</h2>
+    $prisma_table$
+    <sub>Container image vulnerabilities as reported by PrismaCloud</sub>
+    <hr>
+    
+    <h2>Production Synthetic Tests</h2>
+    $synthetic_tests_table$
+    <sub></sub>
+    <br>
+    <hr>
+
+    <h3></h3>
+    <p style="text-align:center;">Rockwell Automation Confidental</p>
+    <p style="text-align:center;font-size:11px">Report Generated $report_dt$ UTC</p>
+    <p style="text-align:center;font-size:11px"><a href ="https://rockwellautomation.atlassian.net/wiki/spaces/POMDSO/pages/3688170438/DevSecOps+Metrics+-+Frequently+Asked+Questions">Metrics FAQ</a></p>
+    <br>
+</body>
+
+</html>
